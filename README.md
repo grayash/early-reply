@@ -4,6 +4,7 @@
 
 - 문장 1,000개, 작가 222명. 전부 공개 원문 자료와 글자 단위로 대조했고 문장마다 원문 링크가 붙어 있다.
 - 원문은 저작권이 끝난 글만 썼고(가장 늦게 세상을 떠난 작가 1947년), 한국어 번역은 새로 했다.
+- 한국 시조 34편은 위키문헌 본문과 브라우저에서 글자 대조했다(`data/ws-checked.json`). 옛한글은 `public/fonts/old-hangul.woff2`(Noto Serif CJK KR, OFL)로 그린다.
 - 글은 이름 없이 공개된다. 저장하는 것은 쓴 글과 받은 답글뿐이다.
 
 ## 폴더
@@ -24,6 +25,7 @@
 npm run build     # 원고 → functions/_data/quotes.js (분류별 개수와 오류를 보여 준다)
 npm run verify    # 원문 대조 (../corpus 에 원문 자료가 있어야 한다)
 npm test          # 일상 글 50개로 답글 고르기 시험 (AI 없이)
+node scripts/old-font.mjs <NotoSerifKR-Regular.otf>   # 시조를 고친 뒤 옛한글 글꼴 다시 만들기
 ```
 
 문장을 고치거나 더한 뒤에는 `verify` → `build` 순서로 돌린다.

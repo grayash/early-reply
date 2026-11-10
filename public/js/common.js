@@ -171,8 +171,8 @@ export async function drawCard(canvas, post, withText) {
   c.font = `${size}px ${serif}`;
   for (const l of wrap(c, q.ko, W - M * 2)) { c.fillText(l, M, y); y += size * 1.65; }
   y += 40;
-  const oldf = "'Noto Serif KR', 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', serif";
-  if (q.lang === 'ko') { try { await document.fonts.load(`36px 'Noto Serif KR'`, q.orig); } catch { /* 기본 글꼴로 */ } }
+  const oldf = "'Old Hangul', 'Noto Serif KR', 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', serif";
+  if (q.lang === 'ko') { try { await document.fonts.load(`36px 'Old Hangul'`, q.orig); } catch { /* 기본 글꼴로 */ } }
   c.globalAlpha = .55; c.font = `36px ${q.lang === 'ko' ? oldf : serif}`;
   const orig = q.orig.split('/').map((s) => s.trim()).slice(0, 2).join(' / ');
   for (const l of wrap(c, orig, W - M * 2).slice(0, 3)) { c.fillText(l, M, y); y += 56; }

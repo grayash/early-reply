@@ -1,8 +1,10 @@
+/* 옛한글: Noto Serif CJK KR(OFL)에서 시조 원문에 쓰인 글자만 잘라 냄. scripts/old-font.mjs */
+@font-face { font-family: 'Old Hangul'; src: url('/fonts/old-hangul.woff2') format('woff2'); font-display: swap; }
 :root {
   --paper: #f4efe6; --card: #fffdf8; --ink: #1f1b16; --muted: #776e62; --line: #e3dbcc;
   --accent: #b5432a; --accent-soft: #f6e4dc; --night: #17130f;
   --serif: 'Gowun Batang', 'Noto Serif KR', 'Apple SD Gothic Neo', serif;
-  --old: 'Noto Serif KR', 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Nanum Myeongjo', serif;
+  --old: 'Old Hangul', 'Noto Serif KR', 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Nanum Myeongjo', serif;
   --sans: -apple-system, BlinkMacSystemFont, 'Pretendard', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
 }
 * { box-sizing: border-box; }
