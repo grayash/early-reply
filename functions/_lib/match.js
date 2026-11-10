@@ -3,7 +3,7 @@
 // 3) 명확하면 1위, 겹치면 규칙으로 하나, 모호하면 범용 문장 모음에서 하나  4) AI가 있으면 '왜 이 문장인지' 한 줄
 // 항상 답글 하나를 돌려준다. (위기 글은 이 함수에 오기 전에 걸러진다.)
 
-import { classify, TAG_CAT, EMOTION_CATS } from './lexicon.js';
+import { classify, TAG_CAT, EMOTION_CATS, POS_TAGS, NEG_TAGS } from './lexicon.js';
 
 export const TUNE = {
   TAG: 3,          // 꼬리표가 맞을 때
@@ -11,6 +11,7 @@ export const TUNE = {
   SUBCAT: 1,       // 보조 꼬리표의 분류가 맞을 때
   BIGRAM: 0.3, BIGRAM_MAX: 2,
   SIM_BASE: 0.3, SIM_SCALE: 20,   // 의미 유사도(0~1)를 점수로 바꾸는 값. 배포 후 실제 글로 조정
+  CLASH: 4,        // 밝은 글에 어두운 문장(또는 그 반대)이 붙지 않게 깎는 점수
   MARGIN: 1.5,     // 1위와 이 점수 안쪽이면 '겹침'으로 본다
   VAGUE_SIM: 0.42, // 의미 유사도가 이보다 낮고 꼬리표도 없으면 '모호'
   TOP: 10, LLM_CANDS: 6,
@@ -30,6 +31,8 @@ function prepare(quotes) {
     q, i,
     cats: new Set([q.cat, ...q.tags.map((t) => TAG_CAT[t]).filter(Boolean)]),
     bi: bigrams(q.ko + ' ' + (q.note || '')),
+    pol: (['joy', 'fun'].includes(q.cat) ? 2 : ['anger', 'sorrow', 'anxiety'].includes(q.cat) ? -2 : 0)
+      + q.tags.reduce((n, t) => n + (POS_TAGS.has(t) ? 1 : NEG_TAGS.has(t) ? -1 : 0), 0),
   }));
   prepared = { src: quotes, rows };
   return rows;
@@ -65,6 +68,8 @@ export async function chooseReply(text, ctx) {
     if (cls.topic && r.q.cat === cls.topic) s += TUNE.CAT;
     if (cls.emotion && r.q.cat !== cls.emotion && r.cats.has(cls.emotion)) s += TUNE.SUBCAT;
     if (cls.topic && r.q.cat !== cls.topic && r.cats.has(cls.topic)) s += TUNE.SUBCAT;
+    if ((cls.pol > 0 && r.pol < 0) || (cls.pol < 0 && r.pol > 0)) s -= TUNE.CLASH;
+    if (cls.pol > 0 && r.pol > 0) s += 1;
     let b = 0; for (const g of tb) if (r.bi.has(g)) b++;
     s += Math.min(b * TUNE.BIGRAM, TUNE.BIGRAM_MAX);
     if (hasSim) { const sim = ctx.sims[r.i]; if (sim > topSim) topSim = sim; s += (sim - TUNE.SIM_BASE) * TUNE.SIM_SCALE; }
