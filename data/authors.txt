@@ -79,3 +79,11 @@ geliot | 조지 엘리엇 | George Eliot | en | 1871 | 1871년 | 잉글랜드 | 
 dickens | 찰스 디킨스 | Charles Dickens | en | 1850 | 1850년 | 잉글랜드 | 열두 살에 구두약 공장에서 일했던 소설가 | gut:David-Copperfield_766
 chesterton | G. K. 체스터턴 | G. K. Chesterton | en | 1909 | 1909년 | 잉글랜드 | 신문에 날마다 짧은 글을 쓴 작가 | gut:Tremendous-Trifles_8092
 lamb | 찰스 램 | Charles Lamb | en | 1823 | 1820년대 | 잉글랜드 런던 | 삼십삼 년 동안 회사 장부를 쓰며 틈틈이 수필을 쓴 사람 | gut:The-Works-of-Charles-and-Mary-Lamb---Volume-2--13-Elia-and-The-Last-Essays-of-Elia_10343
+seneca | 세네카 | Lucius Annaeus Seneca | la | 64 | 1세기 | 로마 제국 | 황제의 스승이었던 철학자. 말년에 젊은 벗에게 백 통 넘는 편지를 썼다 | la:data/phi1017
+horace | 호라티우스 | Quintus Horatius Flaccus | la | -20 | 기원전 1세기 | 로마 | 해방 노예의 아들로 태어나 시인이 되었다. 시골 농장에서 지내기를 좋아했다 | la:data/phi0893
+catullus | 카툴루스 | Gaius Valerius Catullus | la | -55 | 기원전 1세기 | 로마 공화정 | 서른 무렵 세상을 떠난 시인. 사랑과 미움, 벗들과의 농담을 시로 썼다 | la:data/phi0472
+martial | 마르티알리스 | Marcus Valerius Martialis | la | 90 | 1세기 | 로마 제국 | 로마의 셋방에 살며 사람들을 꼬집는 짧은 시를 천오백 편 쓴 시인 | la:data/phi1294
+ovid | 오비디우스 | Publius Ovidius Naso | la | 8 | 1세기 초 | 로마 제국 | 사랑의 시로 이름났으나 황제의 노여움을 사 흑해 끝으로 쫓겨났다 | la:data/phi0959
+virgil | 베르길리우스 | Publius Vergilius Maro | la | -25 | 기원전 1세기 | 로마 | 농부의 아들로 태어난 시인. 목동의 노래와 농사의 시, 건국 서사시를 썼다 | la:data/phi0690
+cicero | 키케로 | Marcus Tullius Cicero | la | -50 | 기원전 1세기 | 로마 공화정 | 변호사이자 정치가. 연설과 편지 구백여 통을 남겼다 | la:data/phi0474
+lucretius | 루크레티우스 | Titus Lucretius Carus | la | -55 | 기원전 1세기 | 로마 공화정 | 세상이 무엇으로 이루어졌는지를 긴 시 한 편으로 쓴 시인 | la:data/phi0550

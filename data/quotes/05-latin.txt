@@ -1,0 +1,66 @@
+seneca | 『루킬리우스에게 보낸 편지』 1 | omnia, Lucili, aliena sunt, tempus tantum nostrum est | 루킬리우스, 모든 것은 남의 것이고, 오직 시간만이 우리 것이네. | old | 시간 | |
+seneca | 『루킬리우스에게 보낸 편지』 1 | dum differtur vita transcurrit | 미루는 사이에 삶은 지나가 버린다. | daily | 귀찮음,시간,후회 | | g
+seneca | 『루킬리우스에게 보낸 편지』 13 | plura sunt, Lucili, quae nos terrent quam quae premunt, et saepius opinione quam re laboramus | 루킬리우스, 우리를 짓누르는 것보다 겁주는 것이 더 많고, 우리는 실제보다 상상으로 더 자주 괴로워하네. | anxiety | 걱정,두려움 | | g
+seneca | 『루킬리우스에게 보낸 편지』 2 | non qui parum habet, sed qui plus cupit, pauper est | 가진 것이 적은 사람이 아니라, 더 바라는 사람이 가난하다. | work | 돈 | |
+seneca | 『루킬리우스에게 보낸 편지』 28 | animum debes mutare, non caelum | 바꿔야 할 것은 하늘이 아니라 마음이네. | young | 여행,방황 | 여행을 가도 우울이 가시지 않는다는 벗에게 |
+seneca | 『루킬리우스에게 보낸 편지』 7 | recede in te ipsum, quantum potes | 할 수 있는 만큼 네 안으로 물러나게. | middle | 지침,외로움 | 사람 많은 곳에 다녀오면 마음이 흐트러진다며 |
+seneca | 『루킬리우스에게 보낸 편지』 104 | non quia difficilia sunt non audemus, sed quia non audemus difficilia sunt | 어려워서 감히 못 하는 것이 아니라, 감히 하지 않아서 어려운 것이다. | young | 도전,두려움 | |
+seneca | 『루킬리우스에게 보낸 편지』 9 | si vis amari, ama | 사랑받고 싶거든, 사랑하라. | love | 연애,짝사랑 | 철학자 헤카톤의 말을 옮기며 |
+seneca | 『루킬리우스에게 보낸 편지』 71 | ignoranti ~ quem portum petat, nullus suus ventus est | 어느 항구로 가는지 모르는 이에게는 어떤 바람도 순풍이 아니다. | young | 진로,방황,막막 | |
+seneca | 『루킬리우스에게 보낸 편지』 78 | levis est dolor si nihil illi opinio adiecerit | 생각이 아무것도 보태지 않는다면, 고통은 가볍다. | anxiety | 걱정,건강 | 오래 앓는 벗에게 |
+seneca | 『루킬리우스에게 보낸 편지』 107 | ducunt volentem fata, nolentem trahunt | 운명은 원하는 자를 이끌고, 원치 않는 자를 끌고 간다. | middle | 책임,지침 | |
+seneca | 『루킬리우스에게 보낸 편지』 7 | homines dum docent discunt | 사람은 가르치면서 배운다. | school | 공부,성장 | |
+seneca | 『루킬리우스에게 보낸 편지』 96 | vivere, Lucili, militare est | 루킬리우스, 산다는 것은 싸우는 것이네. | middle | 지침,책임 | |
+horace | 『송가』 1.11 | carpe diem, quam minimum credula postero | 오늘을 붙잡아라. 내일은 되도록 믿지 말고. | fun | 시간,즐거움 | | g
+horace | 『송가』 1.11 | dum loquimur, fugerit invida aetas | 우리가 이야기하는 사이에도, 샘 많은 시간은 달아나 있으리. | old | 시간 | |
+horace | 『송가』 1.37 | nunc est bibendum, nunc pede libero pulsanda tellus | 이제는 마셔야 할 때, 이제는 자유로운 발로 땅을 굴러야 할 때. | fun | 술,놀이,기쁨 | |
+horace | 『송가』 2.3 | aequam memento rebus in arduis servare mentem | 어려운 일 속에서도 고른 마음을 지킬 것을 기억하라. | anxiety | 걱정,지침 | |
+horace | 『송가』 2.14 | eheu fugaces, Postume, Postume, labuntur anni | 아아, 포스투무스여, 포스투무스여, 세월은 달아나듯 미끄러져 간다. | old | 시간,늙음 | |
+horace | 『송가』 4.12 | dulce est desipere in loco | 때로는 바보처럼 구는 것이 달콤하다. | fun | 놀이,즐거움 | 벗을 술자리에 부르며 | g
+horace | 『송가』 3.29 | ille potens sui laetusque deget, cui licet in diem dixisse vixi | 날마다 "나는 살았다"고 말할 수 있는 사람이, 자기 자신의 주인으로 기쁘게 지내리라. | joy | 뿌듯,기쁨 | |
+horace | 『풍자시』 1.1 | quid rides? mutato nomine de te fabula narratur | 왜 웃는가? 이름만 바꾸면 그 이야기는 네 이야기다. | anger | 짜증,다툼 | |
+horace | 『서간시』 1.2 | dimidium facti, qui coepit, habet: sapere aude, incipe | 시작한 사람은 이미 절반을 한 것이다. 용기 내어 알려고 하라. 시작하라. | young | 도전,귀찮음 | | g
+horace | 『서간시』 1.2 | ira furor brevis est | 화는 짧은 광기다. | anger | 분노 | | g
+horace | 『서간시』 1.11 | caelum, non animum mutant, qui trans mare currunt | 바다를 건너 달려가는 이들은 하늘을 바꿀 뿐, 마음을 바꾸지는 못한다. | fun | 여행,방황 | |
+horace | 『송가』 1.9 | dissolve frigus ligna super foco large reponens | 난로에 장작을 넉넉히 얹어 추위를 녹여라. | daily | 날씨,집,계절 | 산이 눈에 하얗게 덮인 날 | g
+horace | 『송가』 1.9 | quid sit futurum cras, fuge quaerere | 내일 무슨 일이 있을지는 묻지 마라. | anxiety | 걱정,막막 | | g
+horace | 『풍자시』 1.9 | ibam forte via Sacra, sicut meus est mos, nescio quid meditans nugarum, totus in illis | 여느 때처럼 큰길을 걷고 있었다. 무언지 모를 시시한 생각에 온통 빠져서. | daily | 여유,귀찮음 | 이러다 말 많은 사람에게 붙잡혀 한나절을 시달린 이야기 |
+horace | 『송가』 3.30 | exegi monumentum aere perennius | 나는 청동보다 오래갈 기념비를 세웠다. | joy | 성취,뿌듯 | 시집을 마무리하며 |
+catullus | 시 5 | vivamus, mea Lesbia, atque amemus | 살자, 나의 레스비아여, 그리고 사랑하자. | love | 연애,기쁨 | |
+catullus | 시 5 | da mi basia mille, deinde centum | 내게 입맞춤을 천 번, 그리고 백 번 다오. | love | 연애,설렘 | |
+catullus | 시 8 | miser Catulle, desinas ineptire, et quod vides perisse perditum ducas | 가엾은 카툴루스여, 어리석은 짓을 그만두어라. 사라진 것이 보이거든 잃은 것으로 여겨라. | love | 이별,후회 | 헤어진 뒤 자기 자신에게 |
+catullus | 시 70 | mulier cupido quod dicit amanti, in vento et rapida scribere oportet aqua | 여자가 애타는 연인에게 하는 말은, 바람과 빠른 물 위에 적어 두어야 한다. | love | 다툼,연애 | |
+catullus | 시 13 | cenabis bene, mi Fabulle, apud me | 파불루스여, 내 집에서 잘 먹게 될 걸세. | fun | 음식,친구 | 이어서 '자네가 푸짐한 저녁거리를 가져온다면'이라고 썼다 |
+catullus | 시 13 | nam tui Catulli plenus sacculus est aranearum | 자네의 카툴루스는 지갑에 거미줄만 가득하니까. | work | 돈,친구 | 벗을 저녁에 초대하며 |
+catullus | 시 101 | atque in perpetuum, frater, ave atque vale | 그리고 영원히, 형이여, 안녕, 잘 가오. | sorrow | 상실,가족 | 먼 땅에 묻힌 형의 무덤을 찾아가 |
+catullus | 시 46 | iam mens praetrepidans avet vagari | 벌써 마음은 들떠서 떠돌고 싶어 한다. | fun | 여행,설렘,계절 | 봄이 와 임지를 떠나게 되어 |
+catullus | 시 31 | o quid solutis est beatius curis | 근심을 풀어 놓는 것보다 복된 일이 무엇이랴. | daily | 집,지침,잠 | 긴 타지 생활을 마치고 집에 돌아와. 이어서 '그리던 내 침대에 눕는다'고 썼다 | g
+martial | 『경구집』 1.32 | non amo te, Sabidi, nec possum dicere quare: hoc tantum possum dicere, non amo te | 사비디우스, 나는 네가 싫다. 왜인지는 말 못 하겠다. 말할 수 있는 건 이것뿐, 나는 네가 싫다. | anger | 짜증 | | g
+martial | 『경구집』 5.58 | cras te victurum, cras dicis, Postume, semper | 포스투무스, 너는 내일부터 제대로 살겠다고, 늘 내일이라고 말한다. | daily | 귀찮음,후회 | | g
+martial | 『경구집』 12.46 | difficilis facilis, iucundus acerbus es idem: nec tecum possum vivere nec sine te | 너는 까다롭다가도 수월하고, 유쾌하다가도 쓰디쓰다. 너와 함께도 못 살겠고, 너 없이도 못 살겠다. | love | 다툼,연애 | |
+martial | 『경구집』 1.38 | quem recitas meus est, o Fidentine, libellus: sed male cum recitas, incipit esse tuus | 피덴티누스, 네가 낭송하는 그 책은 내 것이다. 그런데 네가 형편없이 읽으니, 네 것이 되기 시작한다. | anger | 짜증,억울,직장 | 남의 시를 자기 것처럼 읽고 다니는 사람에게 |
+martial | 『경구집』 5.81 | semper pauper eris, si pauper es, Aemiliane: dantur opes nullis nunc nisi divitibus | 아이밀리아누스, 지금 가난하다면 너는 늘 가난할 것이다. 요즘 재물은 부자들에게만 주어지니까. | anger | 돈,억울 | |
+ovid | 『흑해에서 보낸 편지』 4.10 | gutta cavat lapidem, consumitur anulus usu | 물방울이 돌을 뚫고, 반지는 끼다 보면 닳는다. | work | 성취,지침 | |
+ovid | 『슬픔의 노래』 1.9 | donec eris ~ felix multos numerabis amicos: tempora si fuerint nubila, solus eris | 네가 무사한 동안에는 많은 벗을 셀 것이다. 날이 흐려지면, 너는 혼자일 것이다. | anger | 친구,억울,외로움 | 쫓겨난 뒤 벗들이 등을 돌리자 |
+ovid | 『사랑의 노래』 1.9 | militat omnis amans | 사랑하는 이는 누구나 싸움터의 병사다. | love | 연애 | |
+ovid | 『변신 이야기』 7 | video meliora proboque, deteriora sequor | 더 나은 것을 보고 옳다고 여기면서도, 더 못한 것을 따른다. | daily | 후회,귀찮음 | | g
+ovid | 『여인들의 편지』 1 | res est solliciti plena timoris amor | 사랑은 걱정스러운 두려움으로 가득한 것. | love | 걱정,연애 | 이십 년째 남편을 기다리는 페넬로페의 목소리로 |
+ovid | 『사랑의 노래』 3.11 | perfer et obdura; dolor hic tibi proderit olim | 견디고 버텨라. 이 아픔이 언젠가 네게 도움이 되리라. | sorrow | 지침,희망,이별 | |
+ovid | 『흑해에서 보낸 편지』 3.4 | ut desint vires, tamen est laudanda voluntas | 힘이 모자라더라도, 하려는 뜻은 칭찬받아야 한다. | work | 실패,도전 | |
+ovid | 『슬픔의 노래』 3.4 | bene qui latuit bene vixit | 잘 숨어 산 사람이 잘 산 것이다. | fun | 여유,집 | |
+virgil | 『아이네이스』 1 | forsan et haec olim meminisse iuvabit | 언젠가는 이 일도 떠올리며 즐거워할 날이 오리라. | sorrow | 지침,희망,회상 | 폭풍에 배를 잃고 낯선 바닷가에 닿은 동료들에게 | g
+virgil | 『아이네이스』 1 | sunt lacrimae rerum et mentem mortalia tangunt | 세상일에는 눈물이 있고, 덧없는 것들이 마음을 건드린다. | sorrow | 슬픔 | |
+virgil | 『목가』 10 | omnia vincit Amor: et nos cedamus Amori | 사랑은 모든 것을 이긴다. 우리도 사랑에 지자. | love | 연애 | |
+virgil | 『농경시』 3 | sed fugit interea, fugit inreparabile tempus | 그러나 그사이 시간은 달아난다. 되돌릴 수 없는 시간은 달아난다. | old | 시간 | |
+virgil | 『농경시』 1 | labor omnia vicit inprobus | 끈질긴 수고가 모든 것을 이겼다. | work | 성취,지침 | |
+virgil | 『아이네이스』 10 | audentis Fortuna iuvat | 운명은 용감한 자를 돕는다. | young | 도전 | |
+virgil | 『목가』 1 | Tityre, tu patulae recubans sub tegmine fagi | 티티루스여, 너는 가지 넓은 너도밤나무 그늘에 누워. | fun | 여유,자연 | 땅을 빼앗기고 떠나는 목동이, 그늘에서 피리 부는 벗에게 |
+virgil | 『농경시』 2 | felix qui potuit rerum cognoscere causas | 사물의 까닭을 알 수 있었던 이는 행복하다. | school | 공부,기쁨 | |
+virgil | 『목가』 2 | trahit sua quemque voluptas | 저마다 제 즐거움에 이끌린다. | fun | 즐거움,놀이 | |
+cicero | 『노년에 대하여』 | nemo enim est tam senex qui se annum non putet posse vivere | 한 해쯤 더 살 수 있다고 생각하지 않을 만큼 늙은 사람은 없다. | old | 늙음,희망 | |
+cicero | 『우정에 대하여』 | amicus certus in re incerta cernitur | 확실한 벗은 불확실한 때에 드러난다. | joy | 친구 | 옛 시인 엔니우스의 말을 옮기며 |
+cicero | 벗 바로에게 보낸 편지 | si hortum in bybliotheca habes, deerit nihil | 서재에 뜰이 있다면, 모자랄 것이 아무것도 없네. | fun | 책,자연,여유 | |
+cicero | 『카틸리나 탄핵 연설』 | o tempora, o mores | 오, 이 시대여, 이 풍속이여! | anger | 분노,짜증 | |
+cicero | 『카틸리나 탄핵 연설』 | quo usque tandem abutere, Catilina, patientia nostra | 카틸리나여, 대체 언제까지 우리의 인내를 함부로 쓰려는가? | anger | 분노,직장 | | g
+cicero | 루케이우스에게 보낸 편지 | epistula enim non erubescit | 편지는 얼굴을 붉히지 않으니까. | love | 짝사랑,설렘 | 얼굴 보고는 못 할 부탁을 편지로 하며 |
+lucretius | 『사물의 본성에 대하여』 4 | medio de fonte leporum surgit amari aliquid | 즐거움의 샘 한가운데서 쓴 무언가가 솟아오른다. | sorrow | 슬픔,연애 | |

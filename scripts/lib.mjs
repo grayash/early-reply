@@ -30,7 +30,9 @@ export function readQuotes(authors) {
     fs.readFileSync(path.join(dir, f), 'utf8').split('\n').forEach((line, n) => {
       if (!line.trim() || line.startsWith('#')) return;
       const at = `${f}:${n + 1}`;
-      const [a, src, orig, ko, cat, tagStr, note, flagStr] = split(line);
+      const [a, src, vorig, ko, cat, tagStr, note, flagStr] = split(line);
+      // '~' : 화면에서는 이어 붙이고, 원문 대조 때만 끊는 표시(판본마다 낱말이 다른 자리)
+      const orig = (vorig || '').replace(/\s*~\s*/g, ' ');
       if (!authors[a]) return errors.push(`${at} 작가 없음: ${a}`);
       if (!orig || !ko) return errors.push(`${at} 원문/번역 없음`);
       if (!CATS[cat]) return errors.push(`${at} 분류 오류: ${cat}`);
@@ -41,7 +43,7 @@ export function readQuotes(authors) {
       const id = `${a}-${crypto.createHash('sha1').update(orig).digest('hex').slice(0, 6)}`;
       if (seen.has(id)) return errors.push(`${at} 같은 원문 중복: ${orig.slice(0, 20)}`);
       seen.add(id);
-      const q = { id, a, src, orig, ko, cat, tags, note: note || '', g: flags.includes('g') ? 1 : 0, lang: authors[a].lang, file: f };
+      const q = { id, a, src, orig, vorig, ko, cat, tags, note: note || '', g: flags.includes('g') ? 1 : 0, lang: authors[a].lang, file: f };
       for (const fl of flags) {
         if (fl.startsWith('y=')) q.year = Number(fl.slice(2));
         if (fl.startsWith('w=')) q.when = fl.slice(2).replace(/_/g, ' ');

@@ -96,7 +96,7 @@ for (const q of quotes) {
   if (!a.corpus || a.corpus === '-') { fails.push([q, '대조할 자료 없음']); continue; }
   const zh = isZhLang(q.lang);
   const norm = zh ? normZh : normTx;
-  const segs = q.orig.split(/\/|…|\.\.\./).map(norm).filter((s) => s.length >= (zh ? 2 : 6));
+  const segs = q.vorig.split(/\/|~|…|\.\.\./).map(norm).filter((s) => s.length >= (zh ? 2 : 6));
   if (!segs.length) { fails.push([q, '원문이 너무 짧음']); continue; }
   let hit = null;
   for (const spec of a.corpus.split(';').map((s) => s.trim())) {
