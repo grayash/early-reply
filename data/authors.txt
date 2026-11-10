@@ -75,8 +75,8 @@ pepys | 새뮤얼 피프스 | Samuel Pepys | en | 1665 | 1660년대 | 잉글랜�
 wilde | 오스카 와일드 | Oscar Wilde | en | 1891 | 19세기 말 | 아일랜드·잉글랜드 | 재치 있는 말로 이름난 작가. 말년에 감옥에서 긴 편지를 썼다 | gut:The-Picture-of-Dorian-Gray_174;gut:De-Profundis_921
 alcott | 루이자 메이 올컷 | Louisa May Alcott | en | 1868 | 1868년 | 미국 | 가난한 집안의 생계를 글로 꾸린 작가. 자기 자매들 이야기를 소설로 썼다 | gut:Little-Women_514
 cbronte | 샬럿 브론테 | Charlotte Brontë | en | 1847 | 1847년 | 잉글랜드 | 가정교사로 일하다 남자 이름으로 소설을 낸 작가 | gut:Jane-Eyre_1260
-geliot | 조지 엘리엇 | George Eliot | en | 1871 | 1871년 | 잉글랜드 | 본명은 메리 앤 에번스. 시골 마을 사람들의 삶을 소설로 썼다 | gut:Middlemarch_145
-dickens | 찰스 디킨스 | Charles Dickens | en | 1850 | 1850년 | 잉글랜드 | 열두 살에 구두약 공장에서 일했던 소설가 | gut:David-Copperfield_766
+geliot | 조지 엘리엇 | George Eliot | en | 1871 | 1871년 | 잉글랜드 | 본명은 메리 앤 에번스. 시골 마을 사람들의 삶을 소설로 썼다 | gut:Middlemarch_145;gut:The-Mill-on-the-Floss_6688
+dickens | 찰스 디킨스 | Charles Dickens | en | 1850 | 1850년 | 잉글랜드 | 열두 살에 구두약 공장에서 일했던 소설가 | gut:David-Copperfield_766;gut:Great-Expectations_1400;gut:A-Christmas-Carol_46
 chesterton | G. K. 체스터턴 | G. K. Chesterton | en | 1909 | 1909년 | 잉글랜드 | 신문에 날마다 짧은 글을 쓴 작가 | gut:Tremendous-Trifles_8092
 lamb | 찰스 램 | Charles Lamb | en | 1823 | 1820년대 | 잉글랜드 런던 | 삼십삼 년 동안 회사 장부를 쓰며 틈틈이 수필을 쓴 사람 | gut:The-Works-of-Charles-and-Mary-Lamb---Volume-2--13-Elia-and-The-Last-Essays-of-Elia_10343
 seneca | 세네카 | Lucius Annaeus Seneca | la | 64 | 1세기 | 로마 제국 | 황제의 스승이었던 철학자. 말년에 젊은 벗에게 백 통 넘는 편지를 썼다 | la:data/phi1017
@@ -117,3 +117,29 @@ zhudunru | 주돈유 | 朱敦儒 | zh | 1140 | 12세기 | 송나라 | 젊어서 
 xuhun | 허혼 | 許渾 | zh | 840 | 9세기 | 당나라 | 물과 비가 자주 나오는 시를 쓴 시인 | zh
 songzhiwen | 송지문 | 宋之問 | zh | 706 | 8세기 초 | 당나라 | 남쪽 끝으로 쫓겨났다가 몰래 고향 쪽으로 돌아온 시인 | zh
 wangzhenbai | 왕정백 | 王貞白 | zh | 900 | 9~10세기 | 당나라 말 | 산속 서당에서 글을 읽던 시절을 시로 남겼다 | zh
+thoreau | 헨리 데이비드 소로 | Henry David Thoreau | en | 1854 | 1854년 | 미국 매사추세츠 | 호숫가에 손수 오두막을 짓고 이 년 두 달을 혼자 살며 그 살림을 적었다 | gut:Walden-and-On-The-Duty-Of-Civil-Disobedience_205
+austen | 제인 오스틴 | Jane Austen | en | 1813 | 1810년대 | 잉글랜드 | 시골 목사의 딸. 거실 한쪽 작은 탁자에서 여섯 편의 소설을 썼다 | gut:Pride-and-Prejudice_1342;gut:Emma_158;gut:Persuasion_105
+twain | 마크 트웨인 | Mark Twain | en | 1876 | 1876~1884년 | 미국 | 인쇄소 견습공, 증기선 키잡이, 광부를 거쳐 작가가 되었다 | gut:The-Adventures-of-Tom-Sawyer_74;gut:Adventures-of-Huckleberry-Finn_76
+jerome | 제롬 K. 제롬 | Jerome K. Jerome | en | 1889 | 1886~1889년 | 잉글랜드 | 열네 살부터 철도 사무원, 단역 배우, 교사로 일하다 우스운 글로 이름을 얻었다 | gut:Three-Men-in-a-Boat_308;gut:The-Idle-Thoughts-of-an-Idle-Fellow_849
+montgomery | 루시 모드 몽고메리 | L. M. Montgomery | en | 1908 | 1908년 | 캐나다 프린스에드워드섬 | 외조부모 손에 자랐다. 우체국 일을 도우며 틈틈이 소설을 썼다 | gut:Anne-of-Green-Gables_45
+carroll | 루이스 캐럴 | Lewis Carroll | en | 1865 | 1865년 | 잉글랜드 옥스퍼드 | 수학 선생. 뱃놀이에서 아이들에게 들려준 이야기를 책으로 썼다 | gut:Alice-s-Adventures-in-Wonderland_11
+grahame | 케네스 그레이엄 | Kenneth Grahame | en | 1908 | 1908년 | 잉글랜드 | 은행에서 삼십 년을 일했다. 아들에게 잠자리에서 들려준 이야기를 책으로 썼다 | gut:The-Wind-in-the-Willows_289
+barrie | J. M. 배리 | J. M. Barrie | en | 1911 | 1911년 | 스코틀랜드·잉글랜드 | 자라지 않는 아이의 이야기를 쓴 작가 | gut:Peter-Pan_16
+burnett | 프랜시스 호지슨 버넷 | Frances Hodgson Burnett | en | 1911 | 1911년 | 잉글랜드·미국 | 아버지를 일찍 여의고 열여덟 살부터 글을 팔아 집안을 먹여 살렸다 | gut:The-Secret-Garden_113
+melville | 허먼 멜빌 | Herman Melville | en | 1851 | 1851~1853년 | 미국 뉴욕 | 고래잡이배 선원이었던 작가. 책이 팔리지 않아 말년 이십 년은 세관에서 일했다 | gut:Moby-Dick--Or-The-Whale_2701;gut:Bartleby-the-Scrivener--A-Story-of-Wall-Street_11231
+emerson | 랠프 월도 에머슨 | Ralph Waldo Emerson | en | 1841 | 1841년 | 미국 매사추세츠 | 목사직을 그만두고 강연과 글로 살아간 사람 | gut:Essays---First-Series_2944
+franklin | 벤저민 프랭클린 | Benjamin Franklin | en | 1771 | 1771~1790년 | 미국 필라델피아 | 양초 장수의 열다섯째 아이. 인쇄공으로 시작했다. 자기 삶을 아들에게 보내는 글로 적었다 | gut:Autobiography-of-Benjamin-Franklin_20203
+douglass | 프레더릭 더글러스 | Frederick Douglass | en | 1845 | 1845년 | 미국 | 노예로 태어나 몰래 글을 배우고 스무 살에 달아났다. 스물일곱에 자기 삶을 책으로 썼다 | gut:Narrative-of-the-Life-of-Frederick-Douglass-an-American-Slave_23
+ebronte | 에밀리 브론테 | Emily Brontë | en | 1847 | 1847년 | 잉글랜드 요크셔 | 황무지 곁 목사관에서 평생을 살았다. 소설 한 편을 남기고 서른에 세상을 떠났다 | gut:Wuthering-Heights_768
+stevenson | 로버트 루이스 스티븐슨 | Robert Louis Stevenson | en | 1881 | 1881년 | 스코틀랜드 | 어려서부터 폐가 약해 따뜻한 곳을 찾아 평생 떠돌며 글을 썼다 | gut:Virginibus-Puerisque-and-Other-Papers_386
+bennett | 아널드 베넷 | Arnold Bennett | en | 1908 | 1908년 | 잉글랜드 | 법률 사무소 서기로 일하다 작가가 되었다. 출퇴근하는 사람들을 위한 작은 책을 썼다 | gut:How-to-Live-on-24-Hours-a-Day_2274
+gissing | 조지 기싱 | George Gissing | en | 1903 | 1903년 | 잉글랜드 | 평생 가난에 쫓기며 글을 쓴 소설가 | gut:The-Private-Papers-of-Henry-Ryecroft_1463
+trollope | 앤서니 트롤럽 | Anthony Trollope | en | 1876 | 1876년 | 잉글랜드 | 우체국에서 삼십삼 년을 일하며 출근 전 새벽마다 소설을 썼다 | gut:An-Autobiography-of-Anthony-Trollope_5978
+burton | 로버트 버턴 | Robert Burton | en | 1621 | 1621년 | 잉글랜드 옥스퍼드 | 평생 대학 도서관에서 지내며 우울에 관한 책 한 권을 고치고 또 고쳐 썼다 | gut:The-Anatomy-of-Melancholy_10800
+johnson | 새뮤얼 존슨 | Samuel Johnson | en | 1755 | 1755~1759년 | 잉글랜드 런던 | 가난한 책방집 아들. 구 년에 걸쳐 거의 혼자 영어 사전을 만들었다 | gut:Rasselas-Prince-of-Abyssinia_652;gut:Life-of-Johnson-Volume-1-1709-1765_8918
+blake | 윌리엄 블레이크 | William Blake | en | 1794 | 1789~1794년 | 잉글랜드 런던 | 판화를 새겨 먹고산 시인. 자기 시에 손수 그림을 그리고 찍어 냈다 | gut:Songs-of-Innocence-and-Songs-of-Experience_1934
+ebbrowning | 엘리자베스 배럿 브라우닝 | Elizabeth Barrett Browning | en | 1850 | 1850년 | 잉글랜드·이탈리아 | 병으로 방 안에서만 지내던 시인. 마흔에 사랑하는 이와 몰래 혼인해 이탈리아로 떠났다 | gut:Sonnets-from-the-Portuguese_2002
+housman | A. E. 하우스먼 | A. E. Housman | en | 1896 | 1896년 | 잉글랜드 | 대학 시험에 떨어져 특허청에서 십 년을 일한 뒤 라틴어 교수가 된 시인 | gut:A-Shropshire-Lad_5720
+burns | 로버트 번스 | Robert Burns | en | 1786 | 1780~1790년대 | 스코틀랜드 | 소작농의 아들. 밭을 갈며 스코틀랜드 말로 시와 노래를 썼다 | gut:Poems-and-Songs-of-Robert-Burns_1279
+herrick | 로버트 헤릭 | Robert Herrick | en | 1648 | 1648년 | 잉글랜드 | 시골 교회의 목사로 지내며 짧은 시 천이백 편을 쓴 시인 | gut:The-Hesperides--amp--Noble-Numbers--Vol.-1-and-2_22421
+wordsworth | 윌리엄 워즈워스 | William Wordsworth | en | 1800 | 1800~1807년 | 잉글랜드 호수 지방 | 누이와 함께 호숫가 시골집에 살며 걷고 시를 쓴 시인 | gut:Lyrical-Ballads-with-Other-Poems-1800-Volume-2_8912
