@@ -1,0 +1,16 @@
+name = "old-replies"
+compatibility_date = "2026-10-01"
+pages_build_output_dir = "public"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "old-replies"
+database_id = "REPLACE_WITH_D1_ID"
+
+[ai]
+binding = "AI"
+
+[vars]
+AI_EMBED_MODEL = "@cf/baai/bge-m3"
+AI_TEXT_MODEL = "@cf/meta/llama-3.3-70b-instruct-fp8-fast"
+RANK_MIN = "5"

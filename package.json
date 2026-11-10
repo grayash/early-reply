@@ -1,0 +1,16 @@
+{
+  "name": "old-replies",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-data.mjs",
+    "verify": "node scripts/verify.mjs",
+    "test": "node scripts/test-match.mjs",
+    "dev": "npm run build && wrangler pages dev public --d1 DB --port 8788",
+    "db:local": "wrangler d1 execute DB --local --file=schema.sql"
+  },
+  "devDependencies": {
+    "opencc-js": "^1.4.2",
+    "wrangler": "^4.0.0"
+  }
+}
