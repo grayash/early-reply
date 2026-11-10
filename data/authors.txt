@@ -220,3 +220,4 @@ gotoba | 고토바인 | 後鳥羽院 | ja | 1212 | 13세기 | 일본 가마쿠�
 henjo | 헨조 | 僧正遍昭 | ja | 850 | 9세기 | 일본 헤이안 시대 | 섬기던 임금이 세상을 떠나자 스님이 된 시인 | gh:tomari/ogura-hyakunin-isshu
 basho | 마쓰오 바쇼 | 松尾芭蕉 | ja | 1689 | 17세기 | 일본 에도 시대 | 오두막을 팔고 길을 떠나 걸으며 열일곱 자짜리 시를 쓴 시인 | gh:nozomi0525/basho-haiku-dataset
 kenko | 요시다 겐코 | 吉田兼好 | ja | 1330 | 14세기 | 일본 가마쿠라 시대 말 | 서른 무렵 벼슬을 버리고 스님이 되어, 떠오르는 대로 짧은 글 이백사십여 편을 적었다 | gh:kumoi-no-fumigura/tsurezuregusa
+chenyuyi | 진여의 | 陳與義 | zh | 1135 | 12세기 | 송나라 | 난리를 피해 오 년을 떠돈 끝에 남쪽에 닿은 시인 | zh

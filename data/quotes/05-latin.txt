@@ -45,22 +45,22 @@ ovid | 『슬픔의 노래』 1.9 | donec eris ~ felix multos numerabis amicos: 
 ovid | 『사랑의 노래』 1.9 | militat omnis amans | 사랑하는 이는 누구나 싸움터의 병사다. | love | 연애 | |
 ovid | 『변신 이야기』 7 | video meliora proboque, deteriora sequor | 더 나은 것을 보고 옳다고 여기면서도, 더 못한 것을 따른다. | daily | 후회,귀찮음 | | g
 ovid | 『여인들의 편지』 1 | res est solliciti plena timoris amor | 사랑은 걱정스러운 두려움으로 가득한 것. | love | 걱정,연애 | 이십 년째 남편을 기다리는 페넬로페의 목소리로 |
-ovid | 『사랑의 노래』 3.11 | perfer et obdura; dolor hic tibi proderit olim | 견디고 버텨라. 이 아픔이 언젠가 네게 도움이 되리라. | sorrow | 지침,희망,이별 | |
+ovid | 『사랑의 노래』 3.11 | perfer et obdura; dolor hic tibi proderit olim | 견디고 버텨라. 이 아픔이 언젠가 네게 도움이 되리라. | sorrow | 지침,희망,이별 |  | g
 ovid | 『흑해에서 보낸 편지』 3.4 | ut desint vires, tamen est laudanda voluntas | 힘이 모자라더라도, 하려는 뜻은 칭찬받아야 한다. | work | 실패,도전 | |
 ovid | 『슬픔의 노래』 3.4 | bene qui latuit bene vixit | 잘 숨어 산 사람이 잘 산 것이다. | fun | 여유,집 | |
 virgil | 『아이네이스』 1 | forsan et haec olim meminisse iuvabit | 언젠가는 이 일도 떠올리며 즐거워할 날이 오리라. | sorrow | 지침,희망,회상 | 폭풍에 배를 잃고 낯선 바닷가에 닿은 동료들에게 | g
-virgil | 『아이네이스』 1 | sunt lacrimae rerum et mentem mortalia tangunt | 세상일에는 눈물이 있고, 덧없는 것들이 마음을 건드린다. | sorrow | 슬픔 | |
+virgil | 『아이네이스』 1 | sunt lacrimae rerum et mentem mortalia tangunt | 세상일에는 눈물이 있고, 덧없는 것들이 마음을 건드린다. | sorrow | 슬픔 |  | g
 virgil | 『목가』 10 | omnia vincit Amor: et nos cedamus Amori | 사랑은 모든 것을 이긴다. 우리도 사랑에 지자. | love | 연애 | |
 virgil | 『농경시』 3 | sed fugit interea, fugit inreparabile tempus | 그러나 그사이 시간은 달아난다. 되돌릴 수 없는 시간은 달아난다. | old | 시간 | |
 virgil | 『농경시』 1 | labor omnia vicit inprobus | 끈질긴 수고가 모든 것을 이겼다. | work | 성취,지침 | |
 virgil | 『아이네이스』 10 | audentis Fortuna iuvat | 운명은 용감한 자를 돕는다. | young | 도전 | |
 virgil | 『목가』 1 | Tityre, tu patulae recubans sub tegmine fagi | 티티루스여, 너는 가지 넓은 너도밤나무 그늘에 누워. | fun | 여유,자연 | 땅을 빼앗기고 떠나는 목동이, 그늘에서 피리 부는 벗에게 |
 virgil | 『농경시』 2 | felix qui potuit rerum cognoscere causas | 사물의 까닭을 알 수 있었던 이는 행복하다. | school | 공부,기쁨 | |
-virgil | 『목가』 2 | trahit sua quemque voluptas | 저마다 제 즐거움에 이끌린다. | fun | 즐거움,놀이 | |
+virgil | 『목가』 2 | trahit sua quemque voluptas | 저마다 제 즐거움에 이끌린다. | fun | 즐거움,놀이 |  | g
 cicero | 『노년에 대하여』 | nemo enim est tam senex qui se annum non putet posse vivere | 한 해쯤 더 살 수 있다고 생각하지 않을 만큼 늙은 사람은 없다. | old | 늙음,희망 | |
 cicero | 『우정에 대하여』 | amicus certus in re incerta cernitur | 확실한 벗은 불확실한 때에 드러난다. | joy | 친구 | 옛 시인 엔니우스의 말을 옮기며 |
 cicero | 벗 바로에게 보낸 편지 | si hortum in bybliotheca habes, deerit nihil | 서재에 뜰이 있다면, 모자랄 것이 아무것도 없네. | fun | 책,자연,여유 | |
-cicero | 『카틸리나 탄핵 연설』 | o tempora, o mores | 오, 이 시대여, 이 풍속이여! | anger | 분노,짜증 | |
+cicero | 『카틸리나 탄핵 연설』 | o tempora, o mores | 오, 이 시대여, 이 풍속이여! | anger | 분노,짜증 |  | g
 cicero | 『카틸리나 탄핵 연설』 | quo usque tandem abutere, Catilina, patientia nostra | 카틸리나여, 대체 언제까지 우리의 인내를 함부로 쓰려는가? | anger | 분노,직장 | | g
 cicero | 루케이우스에게 보낸 편지 | epistula enim non erubescit | 편지는 얼굴을 붉히지 않으니까. | love | 짝사랑,설렘 | 얼굴 보고는 못 할 부탁을 편지로 하며 |
 lucretius | 『사물의 본성에 대하여』 4 | medio de fonte leporum surgit amari aliquid | 즐거움의 샘 한가운데서 쓴 무언가가 솟아오른다. | sorrow | 슬픔,연애 | |

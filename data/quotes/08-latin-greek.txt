@@ -17,7 +17,7 @@ cicero | 『우정에 대하여』 | quid dulcius quam habere quicum omnia audea
 cicero | 티로에게 보낸 편지 | cura, ut valeas | 몸 잘 챙기게. | middle | 건강 | 병으로 뒤처진 비서에게 보낸 편지마다 되풀이한 끝인사 | g
 cicero | 『최고선과 최고악에 대하여』 5 | omnium enim rerum principia parva sunt | 모든 일의 시작은 작다. | young | 도전 | | g
 lucretius | 『사물의 본성에 대하여』 2.1 | suave, mari magno turbantibus aequora ventis, / e terra magnum alterius spectare laborem | 큰 바다에 바람이 물결을 뒤흔들 때, 뭍에서 남의 큰 고생을 바라보는 것은 달콤하다. | anxiety | 걱정,두려움 | 남의 괴로움이 즐거워서가 아니라, 내가 그 불행에서 벗어나 있음을 알게 되어서라며 |
-lucretius | 『사물의 본성에 대하여』 2.14 | o miseras hominum mentes, o pectora caeca! | 아, 가엾은 사람의 마음이여, 눈먼 가슴이여! | anger | 답답 | |
+lucretius | 『사물의 본성에 대하여』 2.14 | o miseras hominum mentes, o pectora caeca! | 아, 가엾은 사람의 마음이여, 눈먼 가슴이여! | anger | 답답 |  | g
 catullus | 시 76 | difficile est longum subito deponere amorem | 오랜 사랑을 갑자기 내려놓기는 어렵다. | sorrow | 이별,상실 | |
 catullus | 시 46 | iam ver egelidos refert tepores | 이제 봄이 추위 가신 따스함을 다시 데려온다. | joy | 계절,여행,설렘 | |
 pliny | 『편지』 1.9 | mirum est quam singulis diebus in urbe ratio aut constet aut constare videatur, pluribus iunctisque non constet | 이상한 일이네. 도시에서 보낸 하루하루는 따져 보면 저마다 그럴듯한데, 여러 날을 합쳐 놓으면 그렇지가 않으니. | work | 직장,시간,지침 | "오늘 뭘 했나?" 물으면 결혼식, 약혼식, 유언장 서명에 다녀왔다고 답하게 된다며 |
@@ -39,7 +39,7 @@ homer | 『일리아스』 1.1 | μῆνιν ἄειδε θεὰ Πηληϊάδ�
 homer | 『일리아스』 6.146 | οἵη περ φύλλων γενεὴ τοίη δὲ καὶ ἀνδρῶν | 나뭇잎의 세대가 그러하듯, 사람의 세대도 그러하다. | old | 시간,자연 | |
 homer | 『오디세이아』 9.34 | ὣς οὐδὲν γλύκιον ἧς πατρίδος οὐδὲ τοκήων γίγνεται | 제 고향과 부모보다 더 달콤한 것은 없다. | sorrow | 고향,부모,그리움 | |
 homer | 『오디세이아』 20.18 | τέτλαθι δή, κραδίη· καὶ κύντερον ἄλλο ποτʼ ἔτλης | 참아라, 마음아. 이보다 더 험한 일도 너는 견뎌 냈다. | sorrow | 슬픔,희망 | 이십 년 만에 돌아온 집에서, 치미는 분을 누르며 제 가슴에게 | g
-homer | 『오디세이아』 15.400 | μετὰ γάρ τε καὶ ἄλγεσι τέρπεται ἀνήρ | 사람은 지나고 나면, 괴로웠던 일에서도 즐거움을 얻는다. | joy | 회상,기쁨 | |
+homer | 『오디세이아』 15.400 | μετὰ γάρ τε καὶ ἄλγεσι τέρπεται ἀνήρ | 사람은 지나고 나면, 괴로웠던 일에서도 즐거움을 얻는다. | joy | 회상,기쁨 |  | g
 hesiod | 『일과 날』 25 | καὶ κεραμεὺς κεραμεῖ κοτέει καὶ τέκτονι τέκτων | 옹기장이는 옹기장이를 시샘하고, 목수는 목수를 시샘한다. | work | 직장,다툼 | |
 hesiod | 『일과 날』 346 | πῆμα κακὸς γείτων | 나쁜 이웃은 재앙이다. | anger | 짜증,집 | |
 sophocles | 『안티고네』 332 | πολλὰ τὰ δεινὰ κοὐδὲν ἀνθρώπου δεινότερον πέλει | 놀라운 것이 많지만, 사람보다 더 놀라운 것은 없다. | joy | 뿌듯,성취 | |

@@ -64,7 +64,7 @@ grossmith | 『어느 보잘것없는 사람의 일기』 | I left the room with
 grossmith | 『어느 보잘것없는 사람의 일기』 | What's the good of a home, if you are never in it? | 집에 있지도 않을 거라면 집이 무슨 소용인가? | daily | 집,여유 | |
 webster | 『키다리 아저씨』 | It isn't the big troubles in life that require character. Anybody can rise to a crisis and face a crushing tragedy with courage, but to meet the petty hazards of the day with a laugh—I really think that requires spirit. | 사람됨이 필요한 것은 인생의 큰 어려움이 아니에요. 큰 위기나 비극에는 누구나 용기를 낼 수 있어요. 하지만 그날그날의 자잘한 골칫거리를 웃으며 맞는 것, 그게 정말 기개가 필요한 일 같아요. | anger | 짜증,성장 | |
 webster | 『키다리 아저씨』 | Most people don't live; they just race. | 사람들 대부분은 사는 게 아니라, 그저 달리기 경주를 하고 있어요. | middle | 지침,여유 | 먼 목표만 보고 숨차게 달리느라 지나가는 고요한 풍경을 다 놓친다며 |
-webster | 『키다리 아저씨』 | I've discovered the true secret of happiness, Daddy, and that is to live in the now. | 아저씨, 행복의 진짜 비결을 찾았어요. 그건 바로 지금을 사는 거예요. | joy | 기쁨,시간 | |
+webster | 『키다리 아저씨』 | I've discovered the true secret of happiness, Daddy, and that is to live in the now. | 아저씨, 행복의 진짜 비결을 찾았어요. 그건 바로 지금을 사는 거예요. | joy | 기쁨,시간 |  | g
 webster | 『키다리 아저씨』 | It isn't the great big pleasures that count the most; it's making a great deal out of the little ones | 가장 중요한 건 엄청나게 큰 즐거움이 아니에요. 작은 즐거움에서 많은 것을 만들어 내는 거예요. | joy | 기쁨,감사 | | g
 webster | 『키다리 아저씨』 | If I lose, I am going to shrug my shoulders and laugh—also if I win. | 지면 어깨를 으쓱하고 웃을 거예요. 이겨도 그럴 거고요. | anxiety | 실패,도전 | 인생을 그저 솜씨 좋게, 정정당당하게 치러야 할 놀이로 여기겠다며 |
 porter | 『폴리애나』 | the game was to just find something about everything to be glad about—no matter what 'twas | 그 놀이는요, 무슨 일에서든 기뻐할 거리를 찾아내는 거예요. 그게 뭐든지요. | joy | 기쁨,놀이 | 인형을 바랐는데 목발이 왔던 날, 아버지가 가르쳐 준 놀이 |
@@ -85,7 +85,7 @@ burnett | 『소공녀』 | If I am a princess in rags and tatters, I can be a p
 burnett | 『소공녀』 | When people are insulting you, there is nothing so good for them as not to say a word—just to look at them and think. | 사람들이 너를 모욕할 때는, 한마디도 하지 않고 그저 바라보며 생각하는 것만큼 그들에게 잘 듣는 것이 없어. | anger | 분노,억울 | |
 adams | 『헨리 애덤스의 교육』 | A teacher affects eternity; he can never tell where his influence stops. | 가르치는 사람은 영원에 영향을 미친다. 자기 영향이 어디서 멈추는지 결코 알 수 없다. | work | 직장,공부 | |
 adams | 『헨리 애덤스의 교육』 | Chaos was the law of nature; Order was the dream of man. | 혼돈은 자연의 법칙이었고, 질서는 사람의 꿈이었다. | anxiety | 막막 | |
-twain | 『얼간이 윌슨』의 달력 | Few things are harder to put up with than the annoyance of a good example. | 훌륭한 본보기가 주는 짜증만큼 참기 어려운 것도 드물다. | anger | 짜증 | |
+twain | 『얼간이 윌슨』의 달력 | Few things are harder to put up with than the annoyance of a good example. | 훌륭한 본보기가 주는 짜증만큼 참기 어려운 것도 드물다. | anger | 짜증 |  | g
 twain | 『얼간이 윌슨』의 달력 | Nothing so needs reforming as other people's habits. | 남의 버릇만큼 고쳐야 할 것도 없다. | anger | 짜증,다툼 | |
 twain | 『얼간이 윌슨』의 달력 | When angry, count four; when very angry, swear. | 화가 나면 넷을 세어라. 몹시 화가 나면 욕을 해라. | anger | 분노 | | g
 twain | 『얼간이 윌슨』의 달력 | Courage is resistance to fear, mastery of fear—not absence of fear. | 용기란 두려움에 맞서는 것, 두려움을 다스리는 것이다. 두려움이 없는 것이 아니다. | anxiety | 두려움,도전 | | g
@@ -102,7 +102,7 @@ bierce | 『악마의 사전』 | LABOR, n. One of the processes by which A acqu
 bierce | 『악마의 사전』 | ACQUAINTANCE, n. A person whom we know well enough to borrow from, but not well enough to lend to. | 아는 사람: 돈을 꿀 만큼은 잘 알지만, 꿔 줄 만큼은 잘 알지 못하는 사람. | fun | 돈,친구 | |
 chesterton | 『정통』 | Angels can fly because they can take themselves lightly. | 천사가 날 수 있는 것은 자기를 가볍게 여기기 때문이다. | joy | 즐거움,여유 | | g
 chesterton | 『정통』 | grown-up people are not strong enough to exult in monotony | 어른들은 되풀이되는 것에 환호할 만큼 튼튼하지 못하다. | middle | 자식,지침 | 아이들은 넘치는 기운으로 "또 해 줘!"를 외치고, 어른은 거의 쓰러질 때까지 해 준다며 |
-chesterton | 『정통』 | The test of all happiness is gratitude | 모든 행복을 가늠하는 잣대는 고마워하는 마음이다. | joy | 감사 | |
+chesterton | 『정통』 | The test of all happiness is gratitude | 모든 행복을 가늠하는 잣대는 고마워하는 마음이다. | joy | 감사 |  | g
 stevenson | 『어린이의 시 동산』 「행복한 생각」 | The world is so full of a number of things, / I'm sure we should all be as happy as kings. | 세상은 이렇게 많은 것들로 가득하니, 우리는 모두 임금님처럼 행복해야 해. | joy | 기쁨 | | g
 stevenson | 『어린이의 시 동산』 「여름의 잠자리」 | In winter I get up at night / And dress by yellow candle-light. / In summer, quite the other way, / I have to go to bed by day. | 겨울에는 깜깜할 때 일어나 노란 촛불 아래서 옷을 입어요. 여름에는 정반대로, 대낮에 자러 가야 해요. | daily | 잠,계절,아침 | |
 stevenson | 『어린이의 시 동산』 「그네」 | How do you like to go up in a swing, / Up in the air so blue? | 그네를 타고 올라가는 거 어때? 저렇게 파란 하늘 위로. | fun | 놀이 | |

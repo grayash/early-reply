@@ -24,7 +24,7 @@ austen | 『오만과 편견』 | Till this moment, I never knew myself. | 이 �
 austen | 『오만과 편견』 | I am the happiest creature in the world. Perhaps other people have said so before, but not one with such justice. | 나는 세상에서 가장 행복한 사람이에요. 전에도 그렇게 말한 사람이 있었겠지만, 나만큼 그럴 만했던 사람은 없을 거예요. | joy | 기쁨,결혼 | |
 austen | 『오만과 편견』 | A lady's imagination is very rapid; it jumps from admiration to love, from love to matrimony, in a moment. | 숙녀의 상상은 아주 빠르지요. 호감에서 사랑으로, 사랑에서 결혼으로 순식간에 건너뛰니까요. | love | 연애,설렘 | |
 austen | 『오만과 편견』 | You have no compassion for my poor nerves. | 당신은 내 가엾은 신경을 조금도 생각해 주지 않아요. | anger | 짜증,가족 | |
-austen | 『오만과 편견』 | Those who do not complain are never pitied. | 불평하지 않는 사람은 아무도 불쌍히 여겨 주지 않아. | anger | 억울 | |
+austen | 『오만과 편견』 | Those who do not complain are never pitied. | 불평하지 않는 사람은 아무도 불쌍히 여겨 주지 않아. | anger | 억울 |  | g
 austen | 『에마』 | One half of the world cannot understand the pleasures of the other. | 세상의 절반은 나머지 절반의 즐거움을 이해하지 못한다. | fun | 즐거움 | | g
 austen | 『에마』 | there is nothing like staying at home for real comfort | 진짜 편안하기로는 집에 있는 것만 한 게 없어요. | daily | 집,여유 | | g
 austen | 『설득』 | You pierce my soul. I am half agony, half hope. | 당신은 내 영혼을 꿰뚫습니다. 나는 반은 고통이고, 반은 희망입니다. | love | 설렘,걱정 | 팔 년 만에 다시 쓴 고백의 편지 |
@@ -49,18 +49,18 @@ jerome | 『게으른 자의 게으른 생각』 | It is in our faults and faili
 jerome | 『게으른 자의 게으른 생각』 | I can enjoy feeling melancholy, and there is a good deal of satisfaction about being thoroughly miserable; but nobody likes a fit of the blues. | 쓸쓸한 기분은 즐길 수도 있고, 아주 비참한 것에도 꽤 만족스러운 데가 있다. 하지만 까닭 없이 가라앉는 기분은 아무도 좋아하지 않는다. | sorrow | 슬픔 | |
 montgomery | 『빨강 머리 앤』 | I'm so glad I live in a world where there are Octobers. | 시월이 있는 세상에 살아서 정말 기뻐요. | joy | 계절,기쁨 | |
 montgomery | 『빨강 머리 앤』 | Isn't it nice to think that tomorrow is a new day with no mistakes in it yet? | 내일은 아직 아무 실수도 하지 않은 새날이라고 생각하면 멋지지 않아요? | joy | 희망,실패 | | g
-montgomery | 『빨강 머리 앤』 | you can nearly always enjoy things if you make up your mind firmly that you will | 즐기겠다고 단단히 마음먹으면, 거의 언제나 즐길 수 있어요. | fun | 즐거움 | |
+montgomery | 『빨강 머리 앤』 | you can nearly always enjoy things if you make up your mind firmly that you will | 즐기겠다고 단단히 마음먹으면, 거의 언제나 즐길 수 있어요. | fun | 즐거움 |  | g
 montgomery | 『빨강 머리 앤』 | Kindred spirits are not so scarce as I used to think. | 마음이 통하는 사람은 내가 생각했던 것만큼 드물지 않아요. | joy | 친구 | |
 montgomery | 『빨강 머리 앤』 | My life is a perfect graveyard of buried hopes. | 내 인생은 묻혀 버린 희망들의 완벽한 무덤이에요. | sorrow | 실패,슬픔 | 책에서 읽은 문장인데, 실망할 때마다 되뇌면 위로가 된다며 |
 montgomery | 『빨강 머리 앤』 | Next to trying and winning, the best thing is trying and failing. | 해 보고 이기는 것 다음으로 좋은 건, 해 보고 지는 거예요. | young | 도전,실패 | |
 montgomery | 『빨강 머리 앤』 | if you have big ideas you have to use big words to express them, haven't you? | 생각이 크면 그걸 말하려고 큰 낱말을 써야 하잖아요, 안 그래요? | school | 성장,공부 | 거창한 말을 쓴다고 사람들이 웃는다며 |
 montgomery | 『빨강 머리 앤』 | Dear old world ... you are very lovely, and I am glad to be alive in you. | 사랑하는 세상아, 넌 정말 아름다워. 네 안에 살아 있어서 기뻐. | joy | 기쁨,감사 | |
-montgomery | 『빨강 머리 앤』 | Looking forward to things is half the pleasure of them | 무언가를 기다리는 것이 그 즐거움의 절반이에요. | joy | 설렘 | |
+montgomery | 『빨강 머리 앤』 | Looking forward to things is half the pleasure of them | 무언가를 기다리는 것이 그 즐거움의 절반이에요. | joy | 설렘 |  | g
 montgomery | 『빨강 머리 앤』 | I don't know what lies around the bend, but I'm going to believe that the best does. | 길모퉁이를 돌면 뭐가 있을지 모르지만, 가장 좋은 것이 있다고 믿을래요. | young | 진로,희망 | |
 montgomery | 『빨강 머리 앤』 | I think it would be worse to expect nothing than to be disappointed. | 실망하는 것보다 아무것도 기대하지 않는 게 더 나쁜 것 같아요. | young | 희망,실패 | |
 carroll | 『이상한 나라의 앨리스』 | I can't explain myself, I'm afraid, sir ... because I'm not myself, you see. | 저도 저를 설명할 수가 없어요. 지금의 저는 제가 아니거든요. | anxiety | 방황,막막 | |
 carroll | 『이상한 나라의 앨리스』 | Who in the world am I? Ah, that's the great puzzle! | 도대체 나는 누구지? 아, 그게 큰 수수께끼야! | young | 방황,막막 | |
-carroll | 『이상한 나라의 앨리스』 | we're all mad here. I'm mad. You're mad. | 여기선 우리 모두 제정신이 아니야. 나도 미쳤고, 너도 미쳤지. | fun | 즐거움 | |
+carroll | 『이상한 나라의 앨리스』 | we're all mad here. I'm mad. You're mad. | 여기선 우리 모두 제정신이 아니야. 나도 미쳤고, 너도 미쳤지. | fun | 즐거움 |  | g
 carroll | 『이상한 나라의 앨리스』 | Would you tell me, please, which way I ought to go from here? … That depends a good deal on where you want to get to | "여기서 어느 길로 가야 하는지 알려 주시겠어요?" "그건 네가 어디로 가고 싶은지에 달렸지." | young | 진로,방황 | |
 carroll | 『이상한 나라의 앨리스』 | it's no use going back to yesterday, because I was a different person then. | 어제로 돌아가 봐야 소용없어요. 그때의 저는 다른 사람이었으니까요. | young | 성장,후회 | |
 carroll | 『이상한 나라의 앨리스』 | Begin at the beginning ... and go on till you come to the end: then stop. | 처음에서 시작해서, 끝이 나올 때까지 계속해. 그리고 멈춰. | work | 직장 | | g
@@ -81,7 +81,7 @@ melville | 『모비 딕』 | It is not down in any map; true places never are. 
 melville | 『모비 딕』 | Ignorance is the parent of fear | 모르는 것이 두려움을 낳는다. | anxiety | 두려움 | | g
 melville | 『필경사 바틀비』 | I would prefer not to. | 안 하는 편을 택하겠습니다. | work | 직장,귀찮음 | 일을 시킬 때마다 서기 바틀비가 조용히 되풀이하는 대답 | g
 emerson | 「자기 신뢰」 | Trust thyself: every heart vibrates to that iron string. | 너 자신을 믿어라. 모든 마음은 그 쇠줄에 맞춰 떨린다. | young | 도전,진로 | |
-emerson | 「자기 신뢰」 | To be great is to be misunderstood. | 크다는 것은 오해받는다는 것이다. | anger | 억울 | |
+emerson | 「자기 신뢰」 | To be great is to be misunderstood. | 크다는 것은 오해받는다는 것이다. | anger | 억울 |  | g
 emerson | 「자기 신뢰」 | Nothing can bring you peace but yourself. | 너에게 평화를 가져다줄 수 있는 것은 너 자신뿐이다. | anxiety | 걱정 | | g
 emerson | 「자기 신뢰」 | Travelling is a fool's paradise. | 여행은 어리석은 자의 낙원이다. | fun | 여행 | 어디로 떠나도 나를 떼어 놓고 갈 수는 없다며 |
 emerson | 「자기 신뢰」 | My giant goes with me wherever I go. | 내가 어디를 가든 내 거인이 따라온다. | anxiety | 여행,슬픔 | 짐을 싸서 멀리 떠났지만, 깨어 보니 달아나려던 슬픈 나 자신이 곁에 있더라며 |
@@ -101,7 +101,6 @@ ebronte | 『폭풍의 언덕』 | he's more myself than I am. Whatever our soul
 ebronte | 『폭풍의 언덕』 | I've dreamt in my life dreams that have stayed with me ever after, and changed my ideas: they've gone through and through me, like wine through water, and altered the colour of my mind. | 살면서 꾼 꿈 가운데는 그 뒤로 내내 나와 함께 남아 내 생각을 바꾼 꿈들이 있어. 물에 포도주가 번지듯 내 속으로 스며들어 내 마음의 빛깔을 바꿔 놓았지. | young | 꿈,잠 | |
 ebronte | 『폭풍의 언덕』 | I wish I were a girl again, half savage and hardy, and free | 다시 소녀였으면 좋겠어. 반쯤 야생이고, 억세고, 자유롭던. | middle | 회상,답답 | |
 ebronte | 『폭풍의 언덕』 | Proud people breed sad sorrows for themselves. | 자존심 센 사람은 스스로 슬픈 일을 만든다. | anger | 다툼 | | g
-cbronte | 『제인 에어』 | Do you think, because I am poor, obscure, plain, and little, I am soulless and heartless? You think wrong! | 내가 가난하고 이름 없고 못생기고 작다고, 영혼도 마음도 없는 줄 아세요? 잘못 생각하셨어요! | anger | 억울,분노 | |
 cbronte | 『제인 에어』 | It is in vain to say human beings ought to be satisfied with tranquillity: they must have action | 사람이 평온함에 만족해야 한다는 말은 헛되다. 사람에게는 할 일이 있어야 한다. | young | 답답,도전 | |
 geliot | 『미들마치』 | If we had a keen vision and feeling of all ordinary human life, it would be like hearing the grass grow and the squirrel's heart beat, and we should die of that roar which lies on the other side of silence. | 평범한 사람들의 삶을 모두 생생히 보고 느낄 수 있다면, 풀이 자라는 소리와 다람쥐의 심장 뛰는 소리가 들리는 것과 같을 것이다. 우리는 침묵 저편의 그 굉음에 견디지 못할 것이다. | sorrow | 슬픔 | |
 geliot | 『미들마치』 | People are almost always better than their neighbors think they are | 사람은 거의 언제나 이웃이 생각하는 것보다 나은 사람이다. | joy | 친구,희망 | |
@@ -114,8 +113,7 @@ dickens | 『크리스마스 캐럴』 | Bah! ... Humbug! | 흥! 허튼소리! |
 dickens | 『크리스마스 캐럴』 | there is nothing in the world so irresistibly contagious as laughter and good-humour | 세상에 웃음과 유쾌한 기분만큼 어쩔 수 없이 옮는 것은 없다. | joy | 즐거움 | | g
 dickens | 『크리스마스 캐럴』 | I will honour Christmas in my heart, and try to keep it all the year. | 크리스마스를 마음에 받들고, 일 년 내내 간직하도록 애쓰겠습니다. | joy | 감사,계절 | |
 lamb | 「퇴직한 사람」 | I had grown to my desk, as it were; and the wood had entered into my soul. | 나는 말하자면 책상에 붙어 자라 버렸다. 그 나무가 내 영혼 속까지 들어와 있었다. | work | 직장,지침 | 회계 장부 앞에서 보낸 삼십육 년을 돌아보며 |
-lamb | 「퇴직한 사람」 | it is a sort of Eternity for a man to have his Time all to himself | 자기 시간을 온전히 자기가 갖는다는 것은, 사람에게 일종의 영원이다. | fun | 여유,시간 | |
-lamb | 「새해 전날」 | I am in love with this green earth; the face of town and country; the unspeakable rural solitudes, and the sweet security of streets. | 나는 이 푸른 땅과 사랑에 빠져 있다. 도시와 시골의 얼굴과, 말로 다 못 할 시골의 고요와, 거리의 달콤한 안전함과. | joy | 기쁨,자연 | |
+lamb | 「퇴직한 사람」 | it is a sort of Eternity for a man to have his Time all to himself | 자기 시간을 온전히 자기가 갖는다는 것은, 사람에게 일종의 영원이다. | fun | 여유,시간 |  | g
 lamb | 「오래된 도자기」 | I wish the good old times would come again ... when we were not quite so rich. | 좋았던 옛날이 다시 오면 좋겠어. 우리가 이만큼 넉넉하지 않던 그때가. | middle | 돈,회상 | 헌책 한 권을 사려고 몇 주를 망설이던 시절이 더 즐거웠다며 |
 stevenson | 「게으른 사람들을 위한 변명」 | There is no duty we so much underrate as the duty of being happy. | 우리가 가장 얕잡아 보는 의무는 행복해야 할 의무다. | joy | 기쁨 | | g
 stevenson | 「게으른 사람들을 위한 변명」 | Extreme busyness, whether at school or college, kirk or market, is a symptom of deficient vitality | 학교에서든 대학에서든, 교회에서든 시장에서든, 지나치게 바쁜 것은 생기가 모자란다는 증거다. | work | 직장,지침 | |
@@ -132,7 +130,7 @@ trollope | 『자서전』 | three hours a day will produce as much as a man oug
 trollope | 『자서전』 | A small daily task, if it be really daily, will beat the labours of a spasmodic Hercules. | 날마다 하는 작은 일은, 정말로 날마다 하기만 한다면, 어쩌다 한 번 힘쓰는 헤라클레스의 수고를 이긴다. | work | 성취 | | g
 burton | 『우울의 해부』 | I write of melancholy, by being busy to avoid melancholy. | 나는 우울에 대해 쓴다. 바삐 지내서 우울을 피하려고. | sorrow | 슬픔,책 | |
 burton | 『우울의 해부』 | Be not solitary, be not idle. | 혼자 있지 말고, 손 놓고 있지 말라. | anxiety | 외로움,걱정 | 구백 쪽 넘는 책의 맨 끝에 적은 처방 | g
-johnson | 『라셀라스』 | Human life is every where a state in which much is to be endured, and little to be enjoyed. | 사람의 삶은 어디서나, 견뎌야 할 것은 많고 누릴 것은 적은 것이다. | sorrow | 슬픔,지침 | |
+johnson | 『라셀라스』 | Human life is every where a state in which much is to be endured, and little to be enjoyed. | 사람의 삶은 어디서나, 견뎌야 할 것은 많고 누릴 것은 적은 것이다. | sorrow | 슬픔,지침 |  | g
 johnson | 『라셀라스』 | Marriage has many pains, but celibacy has no pleasures. | 결혼에는 괴로움이 많지만, 독신에는 즐거움이 없다. | love | 결혼 | |
 johnson | 『라셀라스』 | Do not suffer life to stagnate; it will grow muddy for want of motion | 삶이 고이게 두지 말라. 움직이지 않으면 흐려진다. | young | 도전,답답 | |
 johnson | 『라셀라스』 | no mind is much employed upon the present: recollection and anticipation fill up almost all our moments | 어떤 마음도 지금에 오래 머물지 않는다. 지난 일을 떠올리고 올 일을 내다보는 것이 우리의 거의 모든 순간을 채운다. | anxiety | 시간,걱정 | |
@@ -163,10 +161,6 @@ wordsworth | 「그 아이는 인적 드문 곳에 살았네」 | But she is in 
 wordsworth | 「샘」 | the wiser mind / Mourns less for what age takes away / Than what it leaves behind. | 더 지혜로운 마음은, 나이가 가져가는 것보다 나이가 남겨 두는 것을 더 슬퍼한다. | old | 늙음,회상 | |
 alcott | 『작은 아씨들』 | I want to do something splendid before I go into my castle,—something heroic or wonderful that won't be forgotten after I'm dead. | 내 성에 들어가기 전에 뭔가 근사한 일을 하고 싶어. 영웅적이거나 놀라운 일, 내가 죽은 뒤에도 잊히지 않을 일을. | young | 꿈,도전 | |
 alcott | 『작은 아씨들』 | Christmas won't be Christmas without any presents | 선물도 없는 크리스마스는 크리스마스가 아니야. | school | 돈,계절 | 소설의 첫 문장 |
-whitman | 「오 나여! 오 삶이여!」 | That the powerful play goes on, and you may contribute a verse. | 이 힘찬 연극은 계속되고, 너도 한 줄을 보탤 수 있다는 것. | young | 꿈,희망 | |
-whitman | 「열린 길의 노래」 | Afoot and light-hearted I take to the open road | 두 발로, 가벼운 마음으로, 나는 열린 길에 나선다. | joy | 여행,기쁨 | |
 keats | 동생들에게 보낸 편지 | when a man is capable of being in uncertainties, mysteries, doubts, without any irritable reaching after fact and reason | 사실과 이유를 찾아 조바심 내지 않고, 불확실함과 수수께끼와 의심 속에 머물 수 있을 때. | anxiety | 막막 | 큰일을 이루는 사람에게 있는 자질을 두고 |
-keats | 동생 부부에게 보낸 편지 | Do you not see how necessary a World of Pains and troubles is to school an Intelligence and make it a Soul? | 한 정신을 가르쳐 영혼으로 만들려면 아픔과 어려움의 세상이 얼마나 필요한지 보이지 않니? | sorrow | 성장,슬픔 | |
-keats | 동생 부부에게 보낸 편지 | Nothing ever becomes real till it is experienced | 겪어 보기 전에는 아무것도 진짜가 되지 않는다. | school | 성장 | | g
 keats | 벗에게 보낸 편지 | if a Sparrow come before my Window I take part in its existence and pick about the Gravel | 참새 한 마리가 내 창 앞에 오면, 나는 그 참새의 삶에 끼어들어 함께 자갈을 쫀다. | daily | 자연 | |
 keats | 벗에게 보낸 편지 | this moment I was writing with one hand, and with the other holding to my Mouth a Nectarine—good God how fine. | 지금 이 순간 한 손으로는 글을 쓰고, 다른 손으로는 천도복숭아를 입에 대고 있네. 세상에, 얼마나 맛있는지. | fun | 음식,즐거움 | |
