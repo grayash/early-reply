@@ -1,0 +1,35 @@
+# 마지막 묶음: 모자란 분류 채우기
+carroll | 『이상한 나라의 앨리스』 | Oh dear! Oh dear! I shall be late! | 이런, 이런! 늦겠어! | anxiety | 걱정,시간 | 조끼 주머니에서 시계를 꺼내 보며 달려가는 흰 토끼 | g
+carroll | 『이상한 나라의 앨리스』 | It was much pleasanter at home ... when one wasn't always growing larger and smaller, and being ordered about by mice and rabbits. | 집에 있을 때가 훨씬 좋았어. 자꾸 커졌다 작아졌다 하지도 않았고, 생쥐며 토끼한테 이래라저래라 소리를 듣지도 않았으니까. | sorrow | 집,고향,그리움 | |
+carroll | 『이상한 나라의 앨리스』 | Curiouser and curiouser! | 갈수록 더 이상해지네! | fun | 즐거움 | |
+emerson | 「자기 신뢰」 | man postpones or remembers; he does not live in the present, but with reverted eye laments the past, or, heedless of the riches that surround him, stands on tiptoe to foresee the future | 사람은 미루거나 떠올린다. 지금을 살지 않고, 뒤돌아보는 눈으로 지난날을 슬퍼하거나, 둘레의 넉넉함은 알아채지 못한 채 까치발을 하고 앞날을 내다본다. | anxiety | 시간,걱정,후회 | |
+emerson | 「자기 신뢰」 | These roses under my window make no reference to former roses or to better ones; they are for what they are | 내 창 아래 장미들은 예전의 장미나 더 나은 장미를 끌어다 대지 않는다. 장미는 그저 지금의 장미로 있다. | joy | 자연,기쁨 | |
+emerson | 「자기 신뢰」 | Discontent is the want of self-reliance: it is infirmity of will. | 불만은 스스로를 믿지 못하는 데서 온다. 그것은 뜻이 허약한 것이다. | anxiety | 걱정,답답 | |
+johnson | 『라셀라스』 | Many things difficult to design prove easy to performance. | 궁리할 때는 어려워 보이던 일이, 막상 해 보면 쉬운 경우가 많다. | anxiety | 걱정,도전 | | g
+bacon | 『수필집』 「의심에 대하여」 | Suspicions amongst thoughts, are like bats amongst birds, they ever fly by twilight. | 생각들 가운데 의심은 새들 가운데 박쥐와 같아서, 늘 어스름에 날아다닌다. | anxiety | 걱정,밤 | |
+bacon | 『수필집』 「결혼과 독신에 대하여」 | wife and children are a kind of discipline of humanity | 아내와 자식은 사람됨을 길러 주는 일종의 수련이다. | middle | 가족,자식,성장 | |
+kafka | 『변신』 | Was ist mit mir geschehen? ... Es war kein Traum. | '나한테 무슨 일이 일어난 거지?' 꿈이 아니었다. | anxiety | 두려움,막막 | |
+seneca | 『루킬리우스에게 보낸 편지』 2 | nusquam est, qui ubique est | 어디에나 있는 사람은 어디에도 없는 것이다. | anxiety | 방황 | 이 책 저 책, 이곳저곳을 옮겨 다니기만 하는 것을 두고 | g
+epictetus | 『엥케이리디온』 43 | πᾶν πρᾶγμα δύο ἔχει λαβάς, τὴν μὲν φορητήν, τὴν δὲ ἀφόρητον | 모든 일에는 손잡이가 둘 있다. 하나는 들 수 있는 손잡이, 하나는 들 수 없는 손잡이. | anxiety | 걱정,다툼 | 형제가 내게 잘못했다면 '잘못했다'는 쪽이 아니라 '형제다'라는 쪽을 잡으라며 |
+epictetus | 『엥케이리디온』 20 | οὐχ ὁ λοιδορῶν ἢ ὁ τύπτων ὑβρίζει, ἀλλὰ τὸ δόγμα τὸ περὶ τούτων ὡς ὑβριζόντων | 너를 모욕하는 것은 욕하는 사람이나 때리는 사람이 아니라, 그들이 나를 모욕한다는 네 생각이다. | anger | 분노,억울 | |
+aurelius | 『명상록』 8.36 | Μή σε συγχείτω ἡ τοῦ ὅλου βίου φαντασία | 삶 전체를 한꺼번에 떠올려 스스로를 어지럽히지 말라. | anxiety | 걱정,막막 | 앞으로 닥칠 온갖 힘든 일을 미리 다 헤아리지 말고, 지금 이 일에서 무엇이 견딜 수 없는지만 물으라며 | g
+aurelius | 『명상록』 4.49 | Ὅμοιον εἶναι τῇ ἄκρᾳ, ᾗ διηνεκῶς τὰ κύματα προσρήσσεται | 끊임없이 파도가 부딪쳐 오는 곶과 같아져라. | anxiety | 두려움,지침 | 곶은 그대로 서 있고, 둘레의 들끓던 물은 잠잠해진다며 |
+aurelius | 『명상록』 7.59 | Ἔνδον σκάπτε, ἔνδον ἡ πηγὴ τοῦ ἀγαθοῦ καὶ ἀεὶ ἀναβλύειν δυναμένη, ἐὰν ἀεὶ σκάπτῃς | 안을 파라. 좋은 것의 샘은 안에 있다. 늘 파기만 하면 늘 솟아날 수 있는 샘이. | joy | 희망 | |
+martial | 『에피그램』 12.34 | nulli te facias nimis sodalem: / gaudebis minus et minus dolebis | 누구와도 너무 가까운 벗이 되지 말라. 기쁨도 덜하겠지만 아픔도 덜할 것이다. | anxiety | 친구,두려움 | 삼십사 년을 함께한 벗에게 보낸 시에서, 쓰라린 일을 피하고 싶다면 그리하라며 |
+martial | 『에피그램』 5.20 | bonosque / soles effugere atque abire sentit, / qui nobis pereunt et inputantur | 좋은 날들이 달아나고 떠나가는 것을 느낀다. 우리에게서 사라지면서도, 우리 몫으로 셈해지는 날들. | middle | 시간,후회,직장 | 벗과 한가롭게 지내고 싶지만 둘 다 저마다의 일에 매여 있다며 |
+burton | 『우울의 해부』 | If there be a hell upon earth, it is to be found in a melancholy man's heart. | 땅 위에 지옥이 있다면, 그것은 우울한 사람의 가슴속에 있다. | anxiety | 슬픔 | |
+dickens | 『위대한 유산』 | I was always treated as if I had insisted on being born | 나는 늘, 내가 태어나겠다고 우기기라도 한 것처럼 대접받았다. | anger | 억울,부모 | 누나 손에 구박받으며 자란 어린 날 |
+dickens | 『위대한 유산』 | Ask no questions, and you'll be told no lies. | 묻지를 마라. 그러면 거짓말도 듣지 않을 테니. | anger | 짜증 | |
+wilde | 『진지함의 중요성』 | I am sick to death of cleverness. Everybody is clever nowadays. | 똑똑한 것에는 이제 넌더리가 나. 요즘은 누구나 똑똑하잖아. | anger | 짜증,지침 | |
+bierce | 『악마의 사전』 | POLITENESS, n. The most acceptable hypocrisy. | 공손함: 가장 받아들일 만한 위선. | anger | 답답 | |
+bierce | 『악마의 사전』 | TELEPHONE, n. An invention of the devil which abrogates some of the advantages of making a disagreeable person keep his distance. | 전화: 싫은 사람을 멀찍이 떼어 놓는 이점 몇 가지를 없애 버린 악마의 발명품. | anger | 짜증 | |
+bierce | 『악마의 사전』 | NOISE, n. A stench in the ear. | 소음: 귀로 맡는 악취. | anger | 짜증 | |
+jerome | 『보트 위의 세 남자』 | I can't sit still and see another man slaving and working. I want to get up and superintend, and walk round with my hands in my pockets, and tell him what to do. | 나는 남이 뼈 빠지게 일하는 걸 가만히 앉아서 보고 있지 못한다. 일어나서 감독을 하고, 주머니에 손을 넣고 돌아다니며 이래라저래라 하고 싶어진다. | fun | 직장,귀찮음 | |
+grahame | 『버드나무에 부는 바람』 | The poetry of motion! The REAL way to travel! The ONLY way to travel! | 움직임의 시! 진짜 여행이란 이런 것! 여행이란 오직 이것뿐! | fun | 여행,즐거움 | 난생처음 자동차를 보고 넋이 나간 두꺼비 |
+grahame | 『버드나무에 부는 바람』 | O bliss! O poop-poop! O my! O my! | 아, 행복해! 아, 빵빵! 세상에! 세상에! | fun | 즐거움 | |
+bennett | 『하루 스물네 시간으로 사는 법』 | he persists in looking upon those hours from ten to six as "the day," to which the ten hours preceding them and the six hours following them are nothing but a prologue and epilogue | 그는 열 시부터 여섯 시까지의 시간만을 '하루'로 여기고, 그 앞의 열 시간과 그 뒤의 여섯 시간은 머리말과 맺음말일 뿐이라고 고집한다. | middle | 직장,시간,지침 | 출퇴근하는 사람이 저지르는 가장 큰 잘못이라며 |
+thoreau | 『월든』 | It is never too late to give up our prejudices. | 굳은 생각을 버리기에 너무 늦은 때란 없다. | middle | 성장,늙음 | |
+montgomery | 『빨강 머리 앤』 | It's all very well to read about sorrows and imagine yourself living through them heroically, but it's not so nice when you really come to have them, is it? | 책에서 슬픔을 읽고 내가 그걸 영웅처럼 견뎌 내는 모습을 상상하는 건 좋아요. 하지만 정말로 슬픈 일이 닥치면 그리 좋지가 않네요, 그렇죠? | sorrow | 슬픔,책 | |
+montgomery | 『빨강 머리 앤』 | Oh, it's delightful to have ambitions. I'm so glad I have such a lot. | 아, 이루고 싶은 게 있다는 건 정말 즐거워요. 그게 이렇게 많아서 참 기뻐요. | joy | 꿈,기쁨 | |
+chesterton | 『사소하지만 엄청난 것들』 | The way to love anything is to realise that it might be lost. | 무엇이든 사랑하는 방법은, 그것을 잃을 수도 있음을 깨닫는 것이다. | joy | 감사,상실 | |
+blake | 「흙덩이와 조약돌」 | Love seeketh not itself to please, / Nor for itself hath any care, / But for another gives its ease, / And builds a heaven in hell's despair. | 사랑은 자기를 기쁘게 하려 하지 않고, 자기를 돌보지도 않는다. 남을 위해 제 편안함을 내주고, 지옥의 절망 속에 천국을 짓는다. | love | 연애 | 소 발굽에 밟히는 작은 흙덩이가 부른 노래 |

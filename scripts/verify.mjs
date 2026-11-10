@@ -13,7 +13,7 @@ const REPO = {
   grc: 'https://github.com/PerseusDL/canonical-greekLit/blob/master/',
 };
 const t2s = OpenCC.Converter({ from: 't', to: 'cn' });
-const VARIANT = { 茍: '苟', 沈: '沉', 聴: '听', 懽: '欢', 讁: '谪', 鍼: '针', 碁: '棋', 疎: '疏', 徧: '遍', 牀: '床', 麤: '粗', 鵞: '鹅', 竝: '并', 襍: '杂', 閒: '间', 闲: '间', 著: '着', 澹: '淡', 惟: '唯', 祇: '只', 秖: '只' };
+const VARIANT = { 雠: '仇', 茍: '苟', 沈: '沉', 聴: '听', 懽: '欢', 讁: '谪', 鍼: '针', 碁: '棋', 疎: '疏', 徧: '遍', 牀: '床', 麤: '粗', 鵞: '鹅', 竝: '并', 襍: '杂', 閒: '间', 闲: '间', 著: '着', 澹: '淡', 惟: '唯', 祇: '只', 秖: '只' };
 const normZh = (s) => [...t2s(s).replace(/[^㐀-鿿]/g, '')].map((c) => VARIANT[c] || c).join('');
 const normTx = (s) => s.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().replace(/ς/g, 'σ').replace(/j/g, 'i').replace(/v/g, 'u').replace(/[^\p{L}\p{N}]/gu, '');
 const isZhLang = (l) => l === 'zh';
@@ -96,7 +96,7 @@ for (const q of quotes) {
   if (!a.corpus || a.corpus === '-') { fails.push([q, '대조할 자료 없음']); continue; }
   const zh = isZhLang(q.lang);
   const norm = zh ? normZh : normTx;
-  const segs = q.vorig.split(/\/|~|…|\.\.\./).map(norm).filter((s) => s.length >= (zh ? 2 : 6));
+  const segs = q.vorig.split(/\/|~|…|\.\.\./).map(norm).filter((s) => s.length >= (zh ? 2 : q.lang === 'ja' ? 3 : 6));
   if (!segs.length) { fails.push([q, '원문이 너무 짧음']); continue; }
   let hit = null;
   for (const spec of a.corpus.split(';').map((s) => s.trim())) {

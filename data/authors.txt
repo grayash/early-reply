@@ -4,14 +4,14 @@ dufu | 두보 | 杜甫 | zh | 760 | 8세기 | 당나라 | 전란 속에서 가�
 baijuyi | 백거이 | 白居易 | zh | 815 | 9세기 | 당나라 | 누구나 알아듣는 쉬운 말로 시를 쓰려 했던 관리이자 시인 | zh
 wangwei | 왕유 | 王維 | zh | 750 | 8세기 | 당나라 | 시인이자 화가. 산속 별장에서 고요한 풍경을 시로 그렸다 | zh
 lishangyin | 이상은 | 李商隱 | zh | 850 | 9세기 | 당나라 | 제목 없는 사랑 시로 유명한 시인. 벼슬길은 내내 풀리지 않았다 | zh
-dumu | 두목 | 杜牧 | zh | 840 | 9세기 | 당나라 | 풍경과 옛일을 짧은 시에 담은 시인 | zh
+dumu | 두목 | 杜牧 | zh | 840 | 9세기 | 당나라 | 풍경과 옛일을 짧은 시에 담은 시인 | zh;zh:蒙学/guwenguanzhi.json
 menghaoran | 맹호연 | 孟浩然 | zh | 730 | 8세기 | 당나라 | 벼슬 없이 고향에서 전원의 삶을 노래한 시인 | zh
 liuyuxi | 유우석 | 劉禹錫 | zh | 820 | 9세기 | 당나라 | 이십 년 넘게 지방으로 좌천되고도 꺾이지 않은 시인 | zh;zh:蒙学/guwenguanzhi.json
 wangchangling | 왕창령 | 王昌齡 | zh | 740 | 8세기 | 당나라 | 변방과 이별을 일곱 자 네 줄 시로 잘 쓴 시인 | zh
 cencan | 잠삼 | 岑參 | zh | 750 | 8세기 | 당나라 | 서쪽 변방의 군영에서 오래 지내며 시를 썼다 | zh
 gaoshi | 고적 | 高適 | zh | 750 | 8세기 | 당나라 | 쉰 가까이 되도록 떠돌다 늦게 벼슬에 오른 시인 | zh
 hanyu | 한유 | 韓愈 | zh | 810 | 9세기 | 당나라 | 문장가이자 관리. 바른말을 하다 여러 번 좌천되었다 | zh;zh:蒙学/guwenguanzhi.json
-liuzongyuan | 유종원 | 柳宗元 | zh | 810 | 9세기 | 당나라 | 개혁에 실패해 먼 남쪽으로 쫓겨나 그곳에서 글을 썼다 | zh
+liuzongyuan | 유종원 | 柳宗元 | zh | 810 | 9세기 | 당나라 | 개혁에 실패해 먼 남쪽으로 쫓겨나 그곳에서 글을 썼다 | zh;zh:蒙学/guwenguanzhi.json
 lihe | 이하 | 李賀 | zh | 815 | 9세기 | 당나라 | 스물일곱에 세상을 떠난 시인. 기이한 상상의 시를 남겼다 | zh
 jiadao | 가도 | 賈島 | zh | 830 | 9세기 | 당나라 | 글자 하나를 두고 며칠씩 고민한 것으로 이름난 시인 | zh
 mengjiao | 맹교 | 孟郊 | zh | 800 | 8~9세기 | 당나라 | 마흔여섯에야 과거에 붙은 가난한 시인 | zh
@@ -189,3 +189,34 @@ baum | L. 프랭크 바움 | L. Frank Baum | en | 1900 | 1900년 | 미국 | 닭 
 nesbit | E. 네스빗 | E. Nesbit | en | 1906 | 1906년 | 잉글랜드 | 글을 팔아 대가족을 먹여 살린 작가 | gut:The-Railway-Children_1874
 sewell | 애나 슈얼 | Anna Sewell | en | 1877 | 1877년 | 잉글랜드 | 다리를 다쳐 평생 마차에 의지했다. 병석에서 말의 눈으로 본 이야기 한 편을 썼다 | gut:Black-Beauty_271
 darwin | 찰스 다윈 | Charles Darwin | en | 1876 | 1876년 | 잉글랜드 | 배를 타고 오 년 동안 세계를 돈 박물학자. 예순일곱에 자식들을 위해 자기 삶을 적었다 | gut:The-Autobiography-of-Charles-Darwin_2010
+cuihao | 최호 | 崔顥 | zh | 740 | 8세기 | 당나라 | 누각에 올라 쓴 시 한 편으로 이백마저 붓을 내려놓게 했다고 전하는 시인 | zh
+daishulun | 대숙륜 | 戴叔倫 | zh | 780 | 8세기 | 당나라 | 난리를 피해 떠돌다 지방 관리로 일한 시인 | zh
+sikongshu | 사공서 | 司空曙 | zh | 780 | 8세기 | 당나라 | 가난과 병 속에서 벗들과 시를 주고받은 시인 | zh
+caosong | 조송 | 曹松 | zh | 880 | 9세기 | 당나라 말 | 평생 떠돌다 일흔이 넘어서야 과거에 붙은 시인 | zh
+chenshidao | 진사도 | 陳師道 | zh | 1090 | 11세기 | 송나라 | 가난해서 처자식을 처가에 보내고 문을 닫아걸고 시를 다듬은 시인 | zh
+liuguo | 유과 | 劉過 | zh | 1200 | 12~13세기 | 송나라 | 과거에 네 번 떨어지고 평생 벼슬 없이 떠돈 시인 | zh
+liuji | 유기 | 劉基 | zh | 1360 | 14세기 | 원나라 말 | 벼슬을 그만두고 숨어 살며 세상을 꼬집는 짧은 글을 썼다 | zh:蒙学/guwenguanzhi.json
+suzhe | 소철 | 蘇轍 | zh | 1083 | 11세기 | 송나라 | 소식의 동생. 형과 함께 좌천되어 지방을 떠돌았다 | zh:蒙学/guwenguanzhi.json
+wangyucheng | 왕우칭 | 王禹偁 | zh | 999 | 10세기 | 송나라 | 바른말을 하다 세 번 좌천된 관리. 쫓겨난 고을에 대나무 누각을 지었다 | zh:蒙学/guwenguanzhi.json
+zhanguoce | 『전국책』의 옛이야기 | 戰國策 | zh | -250 | 기원전 5~3세기 | 전국 시대 | 여러 나라를 오가던 말 잘하는 이들의 이야기를 모은 책. 엮은 이는 여럿이다 | zh:蒙学/guwenguanzhi.json
+zuozhuan | 『좌전』의 옛이야기 | 左傳 | zh | -400 | 기원전 5~4세기 | 춘추 시대 | 이백오십 년의 일을 해마다 적은 역사책. 좌구명이 지었다고 전한다 | zh:蒙学/guwenguanzhi.json
+shaoyong | 소옹 | 邵雍 | zh | 1060 | 11세기 | 송나라 | 벼슬을 마다하고 작은 집을 '편안한 움막'이라 부르며 산 학자 | zh
+zhinan | 지남 | 志南 | zh | 1200 | 12~13세기 | 송나라 | 시 한 편이 전하는 스님 | zh;zh:蒙学/qianjiashi.json
+zhangzhihe | 장지화 | 張志和 | zh | 770 | 8세기 | 당나라 | 벼슬을 버리고 강과 호수를 떠돌며 스스로를 '안개 낀 물결의 낚시꾼'이라 불렀다 | zh
+zhoubangyan | 주방언 | 周邦彥 | zh | 1090 | 11~12세기 | 송나라 | 음률에 밝아 궁중의 음악을 맡았던 노랫말 작가 | zh
+choichiwon | 최치원 | 崔致遠 | zh | 885 | 9세기 | 신라 | 열두 살에 당나라로 건너가 열여덟에 과거에 붙었다. 스물아홉에 신라로 돌아왔다 | zh:全唐诗/error/poet.tang.54000.json
+komachi | 오노노 고마치 | 小野小町 | ja | 850 | 9세기 | 일본 헤이안 시대 | 사랑의 노래로 이름난 여성 시인 | gh:tomari/ogura-hyakunin-isshu
+oechisato | 오에노 지사토 | 大江千里 | ja | 894 | 9세기 | 일본 헤이안 시대 | 학자 집안에서 난 시인 | gh:tomari/ogura-hyakunin-isshu
+muneyuki | 미나모토노 무네유키 | 源宗于 | ja | 920 | 10세기 | 일본 헤이안 시대 | 왕의 손자로 태어났으나 벼슬이 오르지 않아 한탄했다고 전하는 시인 | gh:tomari/ogura-hyakunin-isshu
+tomonori | 기노 도모노리 | 紀友則 | ja | 900 | 9~10세기 | 일본 헤이안 시대 | 나라의 첫 노래 모음을 엮다가 다 마치지 못하고 세상을 떠난 시인 | gh:tomari/ogura-hyakunin-isshu
+tsurayuki | 기노 쓰라유키 | 紀貫之 | ja | 905 | 10세기 | 일본 헤이안 시대 | 노래 모음을 엮고 여행 일기를 쓴 시인 | gh:tomari/ogura-hyakunin-isshu
+egyo | 에교 | 恵慶法師 | ja | 980 | 10세기 | 일본 헤이안 시대 | 시인들과 어울려 노래를 지은 스님 | gh:tomari/ogura-hyakunin-isshu
+gyoson | 교손 | 行尊 | ja | 1100 | 11~12세기 | 일본 헤이안 시대 | 열두 살에 절에 들어가 깊은 산에서 오래 수행한 스님 | gh:tomari/ogura-hyakunin-isshu
+shunzei | 후지와라노 슌제이 | 藤原俊成 | ja | 1140 | 12세기 | 일본 헤이안 시대 말 | 아흔까지 살며 노래를 가르친 시인. 스물일곱 무렵 이 노래를 지었다 | gh:tomari/ogura-hyakunin-isshu
+kiyosuke | 후지와라노 기요스케 | 藤原清輔 | ja | 1160 | 12세기 | 일본 헤이안 시대 말 | 아버지와 사이가 나빠 오래 인정받지 못한 시인 | gh:tomari/ogura-hyakunin-isshu
+saigyo | 사이교 | 西行法師 | ja | 1180 | 12세기 | 일본 헤이안 시대 말 | 스물셋에 무사의 삶을 버리고 스님이 되어 평생 떠돌며 노래를 지었다 | gh:tomari/ogura-hyakunin-isshu
+sanetomo | 미나모토노 사네토모 | 源実朝 | ja | 1213 | 13세기 | 일본 가마쿠라 시대 | 열두 살에 장군이 되었으나 노래 짓기를 더 사랑한 사람 | gh:tomari/ogura-hyakunin-isshu
+gotoba | 고토바인 | 後鳥羽院 | ja | 1212 | 13세기 | 일본 가마쿠라 시대 | 임금 자리에서 물러난 뒤 노래 모음을 엮게 했다. 뒷날 섬으로 쫓겨났다 | gh:tomari/ogura-hyakunin-isshu
+henjo | 헨조 | 僧正遍昭 | ja | 850 | 9세기 | 일본 헤이안 시대 | 섬기던 임금이 세상을 떠나자 스님이 된 시인 | gh:tomari/ogura-hyakunin-isshu
+basho | 마쓰오 바쇼 | 松尾芭蕉 | ja | 1689 | 17세기 | 일본 에도 시대 | 오두막을 팔고 길을 떠나 걸으며 열일곱 자짜리 시를 쓴 시인 | gh:nozomi0525/basho-haiku-dataset
+kenko | 요시다 겐코 | 吉田兼好 | ja | 1330 | 14세기 | 일본 가마쿠라 시대 말 | 서른 무렵 벼슬을 버리고 스님이 되어, 떠오르는 대로 짧은 글 이백사십여 편을 적었다 | gh:kumoi-no-fumigura/tsurezuregusa
