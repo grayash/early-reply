@@ -15,13 +15,11 @@ thoreau | 『월든』 | I say, beware of all enterprises that require new cloth
 thoreau | 『월든』 | men have become the tools of their tools | 사람이 자기 연장의 연장이 되어 버렸다. | work | 직장,답답 | |
 austen | 『오만과 편견』 | It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife. | 재산깨나 있는 독신 남자라면 아내가 필요할 것이라는 점은, 누구나 인정하는 진리다. | love | 결혼,돈 | 소설의 첫 문장 |
 austen | 『오만과 편견』 | I declare after all there is no enjoyment like reading! | 정말이지 책 읽기만 한 즐거움은 없어요! | fun | 책,즐거움 | 책에는 아무 관심 없는 인물이 잘 보이려고 하는 말 |
-austen | 『오만과 편견』 | For what do we live, but to make sport for our neighbours, and laugh at them in our turn? | 우리가 뭣 때문에 사나? 이웃의 웃음거리가 되어 주고, 우리 차례가 오면 이웃을 보고 웃으려고 사는 것이지. | fun | 즐거움 | |
 austen | 『오만과 편견』 | Angry people are not always wise. | 화난 사람이 늘 현명한 것은 아니다. | anger | 분노 | | g
 austen | 『오만과 편견』 | I could easily forgive his pride, if he had not mortified mine. | 그 사람의 오만쯤은 쉽게 용서할 수 있었을 거야. 내 자존심을 건드리지만 않았다면. | anger | 억울,다툼 | |
 austen | 『오만과 편견』 | In vain I have struggled. It will not do. My feelings will not be repressed. | 애써 보았지만 소용없었습니다. 안 되겠습니다. 제 마음을 누를 수가 없습니다. | love | 짝사랑,설렘 | |
 austen | 『오만과 편견』 | My courage always rises at every attempt to intimidate me. | 누가 나를 겁주려 할 때마다 내 용기는 오히려 솟아나요. | young | 도전,두려움 | |
 austen | 『오만과 편견』 | Till this moment, I never knew myself. | 이 순간까지, 나는 나 자신을 몰랐어. | young | 성장,후회 | |
-austen | 『오만과 편견』 | I am the happiest creature in the world. Perhaps other people have said so before, but not one with such justice. | 나는 세상에서 가장 행복한 사람이에요. 전에도 그렇게 말한 사람이 있었겠지만, 나만큼 그럴 만했던 사람은 없을 거예요. | joy | 기쁨,결혼 | |
 austen | 『오만과 편견』 | A lady's imagination is very rapid; it jumps from admiration to love, from love to matrimony, in a moment. | 숙녀의 상상은 아주 빠르지요. 호감에서 사랑으로, 사랑에서 결혼으로 순식간에 건너뛰니까요. | love | 연애,설렘 | |
 austen | 『오만과 편견』 | You have no compassion for my poor nerves. | 당신은 내 가엾은 신경을 조금도 생각해 주지 않아요. | anger | 짜증,가족 | |
 austen | 『오만과 편견』 | Those who do not complain are never pitied. | 불평하지 않는 사람은 아무도 불쌍히 여겨 주지 않아. | anger | 억울 |  | g
@@ -44,9 +42,7 @@ jerome | 『보트 위의 세 남자』 | Throw the lumber over, man! Let your b
 jerome | 『보트 위의 세 남자』 | But who wants to be foretold the weather? It is bad enough when it comes, without our having the misery of knowing about it beforehand. | 날씨를 미리 알고 싶은 사람이 어디 있나? 닥쳤을 때만으로도 충분히 괴로운데, 미리 알아서 괴로울 것까지야. | daily | 날씨,짜증 | |
 jerome | 『게으른 자의 게으른 생각』 | It is impossible to enjoy idling thoroughly unless one has plenty of work to do. | 할 일이 잔뜩 있지 않고서는 게으름을 제대로 즐길 수 없다. | fun | 여유,귀찮음 | | g
 jerome | 『게으른 자의 게으른 생각』 | Being poor is a mere trifle. It is being known to be poor that is the sting. | 가난한 것쯤은 아무것도 아니다. 가난하다는 것이 알려지는 것, 그게 아픈 것이다. | work | 돈 | |
-jerome | 『게으른 자의 게으른 생각』 | Love is like the measles; we all have to go through it. | 사랑은 홍역 같은 것이다. 누구나 한 번은 치러야 한다. | love | 연애 | |
 jerome | 『게으른 자의 게으른 생각』 | It is in our faults and failings, not in our virtues, that we touch one another and find sympathy. | 우리가 서로에게 닿고 마음이 통하는 것은 잘난 데서가 아니라, 허물과 모자람에서다. | joy | 감사,실패 | |
-jerome | 『게으른 자의 게으른 생각』 | I can enjoy feeling melancholy, and there is a good deal of satisfaction about being thoroughly miserable; but nobody likes a fit of the blues. | 쓸쓸한 기분은 즐길 수도 있고, 아주 비참한 것에도 꽤 만족스러운 데가 있다. 하지만 까닭 없이 가라앉는 기분은 아무도 좋아하지 않는다. | sorrow | 슬픔 | |
 montgomery | 『빨강 머리 앤』 | I'm so glad I live in a world where there are Octobers. | 시월이 있는 세상에 살아서 정말 기뻐요. | joy | 계절,기쁨 | |
 montgomery | 『빨강 머리 앤』 | Isn't it nice to think that tomorrow is a new day with no mistakes in it yet? | 내일은 아직 아무 실수도 하지 않은 새날이라고 생각하면 멋지지 않아요? | joy | 희망,실패 | | g
 montgomery | 『빨강 머리 앤』 | you can nearly always enjoy things if you make up your mind firmly that you will | 즐기겠다고 단단히 마음먹으면, 거의 언제나 즐길 수 있어요. | fun | 즐거움 |  | g
@@ -68,14 +64,11 @@ carroll | 『이상한 나라의 앨리스』 | what is the use of a book ... wi
 carroll | 『이상한 나라의 앨리스』 | How puzzling all these changes are! I'm never sure what I'm going to be, from one minute to another. | 이렇게 자꾸 바뀌니 정말 헷갈려! 다음 순간에 내가 뭐가 될지 도무지 알 수가 없잖아. | anxiety | 성장,걱정 | |
 grahame | 『버드나무에 부는 바람』 | there is nothing ... absolute nothing ... half so much worth doing as simply messing about in boats | 그냥 배를 타고 빈둥거리는 것, 그 절반만큼이라도 해 볼 만한 일은 없어. 정말 아무것도 없어. | fun | 놀이,여유 | |
 grahame | 『버드나무에 부는 바람』 | Hang spring-cleaning! | 봄맞이 대청소 따위 집어치워! | daily | 귀찮음,계절,집 | 청소하다 말고 붓을 내던지고 밖으로 뛰쳐나가며 |
-grahame | 『버드나무에 부는 바람』 | After all, the best part of a holiday is perhaps not so much to be resting yourself, as to see all the other fellows busy working. | 결국 휴일의 가장 좋은 점은 내가 쉬는 것보다, 다른 친구들이 죄다 바삐 일하는 걸 구경하는 데 있는지도 모른다. | fun | 여유,직장 | |
 grahame | 『버드나무에 부는 바람』 | No animal, according to the rules of animal-etiquette, is ever expected to do anything strenuous, or heroic, or even moderately active during the off-season of winter. | 동물 세계의 예법에 따르면, 겨울이라는 비수기에는 어떤 동물에게도 힘든 일이나 영웅적인 일, 심지어 적당히 활동적인 일조차 기대해서는 안 된다. | daily | 계절,귀찮음 | |
 barrie | 『피터 팬』 | All children, except one, grow up. | 아이들은 모두, 한 명만 빼고, 자란다. | school | 성장 | 소설의 첫 문장 |
 barrie | 『피터 팬』 | Oh, why can't you remain like this for ever! | 아, 왜 넌 언제까지나 이대로 있을 수 없는 거니! | middle | 자식,시간 | 두 살배기 딸이 꽃을 꺾어 달려오자 엄마가 |
-burnett | 『비밀의 화원』 | At first people refuse to believe that a strange new thing can be done, then they begin to hope it can be done, then they see it can be done—then it is done and all the world wonders why it was not done centuries ago. | 처음에 사람들은 낯설고 새로운 일이 될 리 없다고 믿는다. 그러다 될지도 모른다고 바라고, 그러다 된다는 것을 본다. 그리고 그 일이 이루어지면 온 세상이 왜 진작 하지 않았는지 의아해한다. | young | 도전,성취 | |
 burnett | 『비밀의 화원』 | Might I have a bit of earth? | 저, 땅을 조금만 가져도 될까요? | school | 놀이,자연 | 갖고 싶은 것이 있느냐는 물음에, 아홉 살 아이가 |
 burnett | 『비밀의 화원』 | Where you tend a rose, my lad, A thistle cannot grow. | 얘야, 네가 장미를 가꾸는 자리에는 엉겅퀴가 자랄 수 없단다. | joy | 희망,자연 | |
-melville | 『모비 딕』 | whenever it is a damp, drizzly November in my soul … I account it high time to get to sea as soon as I can | 내 영혼에 축축하고 부슬비 내리는 십일월이 올 때면, 되도록 빨리 바다로 나갈 때가 되었다고 여긴다. | sorrow | 슬픔,지침,여행 | |
 melville | 『모비 딕』 | I know not all that may be coming, but be it what it will, I'll go to it laughing. | 무엇이 닥쳐올지 다 알지는 못한다. 하지만 그게 무엇이든, 나는 웃으며 마주하겠다. | anxiety | 두려움,도전 | |
 melville | 『모비 딕』 | It is not down in any map; true places never are. | 그곳은 어느 지도에도 나와 있지 않다. 진짜 장소는 원래 그렇다. | fun | 여행 | |
 melville | 『모비 딕』 | Ignorance is the parent of fear | 모르는 것이 두려움을 낳는다. | anxiety | 두려움 | | g
@@ -89,7 +82,6 @@ emerson | 「우정」 | A friend is a person with whom I may be sincere. Before
 emerson | 「우정」 | the only way to have a friend is to be one | 벗을 얻는 길은 오직 벗이 되어 주는 것뿐이다. | joy | 친구 | |
 emerson | 「보상」 | For every thing you have missed, you have gained something else; and for every thing you gain, you lose something. | 놓친 것마다 그 대신 얻은 것이 있고, 얻은 것마다 그 대신 잃은 것이 있다. | sorrow | 상실 | | g
 emerson | 「원」 | Nothing great was ever achieved without enthusiasm. | 열정 없이 이루어진 큰일은 하나도 없다. | work | 성취,도전 | |
-franklin | 『자서전』 | So convenient a thing is it to be a reasonable creature, since it enables one to find or make a reason for everything one has a mind to do. | 이성을 가진 존재라는 것은 참 편리하다. 하고 싶은 일이라면 무엇이든 그럴듯한 이유를 찾거나 만들어 낼 수 있으니. | fun | 음식,즐거움 | 고기를 먹지 않기로 했다가 갓 튀긴 생선 냄새에 넘어가고 나서 |
 franklin | 『자서전』 | Human felicity is produced not so much by great pieces of good fortune that seldom happen, as by little advantages that occur every day. | 사람의 행복은 어쩌다 한 번 오는 큰 행운보다, 날마다 생기는 작은 편리함에서 나온다. | joy | 기쁨 | | g
 franklin | 『자서전』 | I should have no objection to a repetition of the same life from its beginning, only asking the advantages authors have in a second edition to correct some faults of the first. | 같은 삶을 처음부터 다시 살라고 해도 싫다 하지 않겠다. 다만 글쓴이가 둘째 판을 낼 때처럼, 첫 판의 잘못 몇 가지를 고칠 수 있기만 바랄 뿐. | old | 회상,후회 | |
 franklin | 『자서전』 | Eat not to dullness; drink not to elevation. | 둔해질 만큼 먹지 말고, 들뜰 만큼 마시지 말라. | fun | 음식,술 | 스스로 정한 열세 가지 덕목 가운데 첫째 |
@@ -102,12 +94,10 @@ ebronte | 『폭풍의 언덕』 | I've dreamt in my life dreams that have staye
 ebronte | 『폭풍의 언덕』 | I wish I were a girl again, half savage and hardy, and free | 다시 소녀였으면 좋겠어. 반쯤 야생이고, 억세고, 자유롭던. | middle | 회상,답답 | |
 ebronte | 『폭풍의 언덕』 | Proud people breed sad sorrows for themselves. | 자존심 센 사람은 스스로 슬픈 일을 만든다. | anger | 다툼 | | g
 cbronte | 『제인 에어』 | It is in vain to say human beings ought to be satisfied with tranquillity: they must have action | 사람이 평온함에 만족해야 한다는 말은 헛되다. 사람에게는 할 일이 있어야 한다. | young | 답답,도전 | |
-geliot | 『미들마치』 | If we had a keen vision and feeling of all ordinary human life, it would be like hearing the grass grow and the squirrel's heart beat, and we should die of that roar which lies on the other side of silence. | 평범한 사람들의 삶을 모두 생생히 보고 느낄 수 있다면, 풀이 자라는 소리와 다람쥐의 심장 뛰는 소리가 들리는 것과 같을 것이다. 우리는 침묵 저편의 그 굉음에 견디지 못할 것이다. | sorrow | 슬픔 | |
 geliot | 『미들마치』 | People are almost always better than their neighbors think they are | 사람은 거의 언제나 이웃이 생각하는 것보다 나은 사람이다. | joy | 친구,희망 | |
 geliot | 『플로스 강의 물방앗간』 | They had entered the thorny wilderness, and the golden gates of their childhood had for ever closed behind them. | 두 사람은 가시밭 광야로 들어섰고, 어린 시절의 황금 문은 등 뒤에서 영영 닫혔다. | school | 성장,회상 | |
 geliot | 『플로스 강의 물방앗간』 | We could never have loved the earth so well if we had had no childhood in it | 이 땅에서 어린 시절을 보내지 않았다면, 우리는 이 땅을 이만큼 사랑하지 못했을 것이다. | school | 회상,자연 | |
 dickens | 『위대한 유산』 | Heaven knows we need never be ashamed of our tears | 우리는 결코 눈물을 부끄러워할 필요가 없다. | sorrow | 슬픔 | | g
-dickens | 『위대한 유산』 | I loved her against reason, against promise, against peace, against hope, against happiness, against all discouragement that could be. | 나는 이성을 거스르고, 약속을 거스르고, 평화를, 희망을, 행복을 거스르고, 있을 수 있는 모든 낙담을 거스르며 그녀를 사랑했다. | love | 짝사랑 | |
 dickens | 『위대한 유산』 | In the little world in which children have their existence whosoever brings them up, there is nothing so finely perceived and so finely felt as injustice. | 누가 키우든 아이들이 사는 그 작은 세계에서, 불공평만큼 섬세하게 알아채고 섬세하게 느끼는 것은 없다. | school | 억울,부모 | |
 dickens | 『크리스마스 캐럴』 | Bah! ... Humbug! | 흥! 허튼소리! | anger | 짜증 | 크리스마스 인사를 받고 스크루지가 |
 dickens | 『크리스마스 캐럴』 | there is nothing in the world so irresistibly contagious as laughter and good-humour | 세상에 웃음과 유쾌한 기분만큼 어쩔 수 없이 옮는 것은 없다. | joy | 즐거움 | | g
@@ -135,7 +125,6 @@ johnson | 『라셀라스』 | Marriage has many pains, but celibacy has no plea
 johnson | 『라셀라스』 | Do not suffer life to stagnate; it will grow muddy for want of motion | 삶이 고이게 두지 말라. 움직이지 않으면 흐려진다. | young | 도전,답답 | |
 johnson | 『라셀라스』 | no mind is much employed upon the present: recollection and anticipation fill up almost all our moments | 어떤 마음도 지금에 오래 머물지 않는다. 지난 일을 떠올리고 올 일을 내다보는 것이 우리의 거의 모든 순간을 채운다. | anxiety | 시간,걱정 | |
 johnson | 체스터필드 백작에게 보낸 편지 | Is not a Patron, my Lord, one who looks with unconcern on a man struggling for life in the water, and, when he has reached ground, encumbers him with help? | 후원자란, 물에 빠져 허우적대는 사람을 무심히 바라보다가 그가 뭍에 닿고 나서야 도움으로 거추장스럽게 하는 사람이 아닙니까? | anger | 억울,직장 | 칠 년 동안 모른 척하다 사전이 다 되자 추천사를 쓴 귀족에게 |
-johnson | 체스터필드 백작에게 보낸 편지 | it has been delayed till I am indifferent, and cannot enjoy it; till I am solitary, and cannot impart it; ~ till I am known, and do not want it | 그 호의는 너무 늦게 왔습니다. 이제 저는 무덤덤해져 기뻐할 수 없고, 혼자가 되어 나눌 사람이 없고, 이름이 알려져 필요하지 않습니다. | anger | 억울,성취 | |
 blake | 「독나무」 | I was angry with my friend: / I told my wrath, my wrath did end. / I was angry with my foe: / I told it not, my wrath did grow. | 벗에게 화가 났다. 화났다고 말하니 화가 끝났다. 원수에게 화가 났다. 말하지 않으니 화가 자랐다. | anger | 분노,친구 | | g
 blake | 「학교 가는 아이」 | But to go to school in a summer morn, / O it drives all joy away! | 하지만 여름 아침에 학교에 가는 것, 아, 그건 모든 기쁨을 쫓아 버려! | school | 공부,계절,아침 | |
 blake | 「학교 가는 아이」 | How can the bird that is born for joy / Sit in a cage and sing? | 기쁨을 위해 태어난 새가, 어떻게 새장에 앉아 노래할 수 있나요? | school | 답답,공부 | |
@@ -147,7 +136,6 @@ ebbrowning | 『포르투갈 말에서 옮긴 소네트』 14 | If thou must lov
 housman | 『슈롭셔의 젊은이』 2 | Loveliest of trees, the cherry now / Is hung with bloom along the bough | 나무 가운데 가장 고운 벚나무가, 지금 가지마다 꽃을 달았다. | joy | 계절,자연 | |
 housman | 『슈롭셔의 젊은이』 13 | When I was one-and-twenty / I heard a wise man say, / "Give crowns and pounds and guineas / But not your heart away" | 내가 스물한 살이었을 때 어느 현명한 이가 말했다. "돈은 얼마든 줘 버려도, 마음만은 주지 마라." | young | 연애,후회 | |
 housman | 『슈롭셔의 젊은이』 13 | And I am two-and-twenty, / And oh, 'tis true, 'tis true. | 이제 나는 스물두 살. 아, 그 말이 맞았다, 맞았다. | young | 후회,연애,이별 | |
-housman | 『슈롭셔의 젊은이』 40 | That is the land of lost content, / I see it shining plain, / The happy highways where I went / And cannot come again. | 저기가 잃어버린 만족의 땅. 환히 빛나는 것이 보인다. 내가 걸었고, 다시는 갈 수 없는 행복한 길들. | sorrow | 회상,고향,그리움 | |
 housman | 『슈롭셔의 젊은이』 62 | And malt does more than Milton can / To justify God's ways to man. | 신의 뜻을 사람에게 납득시키는 데는, 밀턴의 시보다 맥주가 낫다. | fun | 술 | |
 housman | 『슈롭셔의 젊은이』 54 | With rue my heart is laden / For golden friends I had | 내 마음은 슬픔으로 무겁다. 내가 가졌던 금빛 벗들 때문에. | sorrow | 친구,상실 | |
 burns | 「생쥐에게」 | The best-laid schemes o' mice an' men / Gang aft agley | 생쥐든 사람이든, 가장 잘 짠 계획도 자주 어그러진다. | work | 실패 | 쟁기로 생쥐 집을 부수고 나서 | g
@@ -159,8 +147,6 @@ herrick | 「처녀들에게, 시간을 아끼라고」 | Gather ye rosebuds whi
 herrick | 「수선화에게」 | Fair daffodils, we weep to see / You haste away so soon | 고운 수선화야, 네가 그리 빨리 서둘러 가는 것을 보니 눈물이 난다. | sorrow | 계절,시간 | |
 wordsworth | 「그 아이는 인적 드문 곳에 살았네」 | But she is in her Grave, and Oh! / The difference to me. | 그러나 그 아이는 이제 무덤에 있고, 아! 내게는 얼마나 다른 세상인지. | sorrow | 상실,그리움 | |
 wordsworth | 「샘」 | the wiser mind / Mourns less for what age takes away / Than what it leaves behind. | 더 지혜로운 마음은, 나이가 가져가는 것보다 나이가 남겨 두는 것을 더 슬퍼한다. | old | 늙음,회상 | |
-alcott | 『작은 아씨들』 | I want to do something splendid before I go into my castle,—something heroic or wonderful that won't be forgotten after I'm dead. | 내 성에 들어가기 전에 뭔가 근사한 일을 하고 싶어. 영웅적이거나 놀라운 일, 내가 죽은 뒤에도 잊히지 않을 일을. | young | 꿈,도전 | |
 alcott | 『작은 아씨들』 | Christmas won't be Christmas without any presents | 선물도 없는 크리스마스는 크리스마스가 아니야. | school | 돈,계절 | 소설의 첫 문장 |
 keats | 동생들에게 보낸 편지 | when a man is capable of being in uncertainties, mysteries, doubts, without any irritable reaching after fact and reason | 사실과 이유를 찾아 조바심 내지 않고, 불확실함과 수수께끼와 의심 속에 머물 수 있을 때. | anxiety | 막막 | 큰일을 이루는 사람에게 있는 자질을 두고 |
 keats | 벗에게 보낸 편지 | if a Sparrow come before my Window I take part in its existence and pick about the Gravel | 참새 한 마리가 내 창 앞에 오면, 나는 그 참새의 삶에 끼어들어 함께 자갈을 쫀다. | daily | 자연 | |
-keats | 벗에게 보낸 편지 | this moment I was writing with one hand, and with the other holding to my Mouth a Nectarine—good God how fine. | 지금 이 순간 한 손으로는 글을 쓰고, 다른 손으로는 천도복숭아를 입에 대고 있네. 세상에, 얼마나 맛있는지. | fun | 음식,즐거움 | |

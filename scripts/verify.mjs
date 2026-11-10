@@ -90,8 +90,12 @@ const verified = {};
 const fails = [];
 const only = process.argv[3];
 
+// 위키문헌(시조): 이 작업 환경에서 직접 열리지 않아, 브라우저에서 대조한 결과(data/ws-checked.json)를 쓴다
+const WS = new Set((() => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, 'data/ws-checked.json'), 'utf8')).titles; } catch { return []; } })());
+
 for (const q of quotes) {
   const a = authors[q.a];
+  if (q.ws) { if (WS.has(q.ws)) verified[q.id] = { url: 'https://ko.wikisource.org/wiki/' + encodeURIComponent(q.ws.replace(/ /g, '_')) }; else fails.push([q, '위키문헌 대조 기록 없음']); continue; }
   if (only && q.file !== only && q.a !== only) continue;
   if (!a.corpus || a.corpus === '-') { fails.push([q, '대조할 자료 없음']); continue; }
   const zh = isZhLang(q.lang);

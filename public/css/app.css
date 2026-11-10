@@ -2,6 +2,7 @@
   --paper: #f4efe6; --card: #fffdf8; --ink: #1f1b16; --muted: #776e62; --line: #e3dbcc;
   --accent: #b5432a; --accent-soft: #f6e4dc; --night: #17130f;
   --serif: 'Gowun Batang', 'Noto Serif KR', 'Apple SD Gothic Neo', serif;
+  --old: 'Noto Serif KR', 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Nanum Myeongjo', serif;
   --sans: -apple-system, BlinkMacSystemFont, 'Pretendard', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
 }
 * { box-sizing: border-box; }
@@ -126,3 +127,7 @@ textarea:focus { outline: 2px solid var(--ink); outline-offset: 1px; }
 .sheet label { display: flex; gap: 8px; align-items: center; font-size: 14.5px; margin: 8px 0; }
 .empty { text-align: center; color: var(--muted); padding: 40px 0; }
 @media (prefers-reduced-motion: reduce) { .stage .mytext, .stage .year, .stage .letter { transition: none; } }
+/* 옛한글(시조 원문): 자모를 합쳐 그릴 수 있는 글꼴로 */
+.orig:lang(ko), .stage .o:lang(ko) { font-family: var(--old); letter-spacing: 0; }
+.foot { text-align: center; font-size: 14px; color: var(--muted); margin: 36px 0 8px; }
+.foot a { color: inherit; }

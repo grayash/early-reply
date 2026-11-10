@@ -29,6 +29,7 @@ async function play(text, post) {
   // 2) 옛 문장이 한 글자씩 도착한다
   $('#stYear').classList.remove('on');
   $('#stWho').textContent = `${q.author.name}${q.author.native ? ' · ' + q.author.native : ''}`;
+  $('#stO').lang = q.lang;
   $('#stO').textContent = q.orig.split('/').map((s) => s.trim()).slice(0, 2).join(' / ');
   $('#stLetter').classList.add('on');
   const el = $('#stQ'); el.textContent = '';

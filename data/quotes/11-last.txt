@@ -1,8 +1,6 @@
 # 마지막 묶음: 모자란 분류 채우기
 carroll | 『이상한 나라의 앨리스』 | Oh dear! Oh dear! I shall be late! | 이런, 이런! 늦겠어! | anxiety | 걱정,시간 | 조끼 주머니에서 시계를 꺼내 보며 달려가는 흰 토끼 | g
-carroll | 『이상한 나라의 앨리스』 | It was much pleasanter at home ... when one wasn't always growing larger and smaller, and being ordered about by mice and rabbits. | 집에 있을 때가 훨씬 좋았어. 자꾸 커졌다 작아졌다 하지도 않았고, 생쥐며 토끼한테 이래라저래라 소리를 듣지도 않았으니까. | sorrow | 집,고향,그리움 | |
 carroll | 『이상한 나라의 앨리스』 | Curiouser and curiouser! | 갈수록 더 이상해지네! | fun | 즐거움 |  | g
-emerson | 「자기 신뢰」 | man postpones or remembers; he does not live in the present, but with reverted eye laments the past, or, heedless of the riches that surround him, stands on tiptoe to foresee the future | 사람은 미루거나 떠올린다. 지금을 살지 않고, 뒤돌아보는 눈으로 지난날을 슬퍼하거나, 둘레의 넉넉함은 알아채지 못한 채 까치발을 하고 앞날을 내다본다. | anxiety | 시간,걱정,후회 | |
 emerson | 「자기 신뢰」 | These roses under my window make no reference to former roses or to better ones; they are for what they are | 내 창 아래 장미들은 예전의 장미나 더 나은 장미를 끌어다 대지 않는다. 장미는 그저 지금의 장미로 있다. | joy | 자연,기쁨 | |
 emerson | 「자기 신뢰」 | Discontent is the want of self-reliance: it is infirmity of will. | 불만은 스스로를 믿지 못하는 데서 온다. 그것은 뜻이 허약한 것이다. | anxiety | 걱정,답답 | |
 johnson | 『라셀라스』 | Many things difficult to design prove easy to performance. | 궁리할 때는 어려워 보이던 일이, 막상 해 보면 쉬운 경우가 많다. | anxiety | 걱정,도전 | | g
@@ -24,15 +22,12 @@ wilde | 『진지함의 중요성』 | I am sick to death of cleverness. Everybo
 bierce | 『악마의 사전』 | POLITENESS, n. The most acceptable hypocrisy. | 공손함: 가장 받아들일 만한 위선. | anger | 답답 |  | g
 bierce | 『악마의 사전』 | TELEPHONE, n. An invention of the devil which abrogates some of the advantages of making a disagreeable person keep his distance. | 전화: 싫은 사람을 멀찍이 떼어 놓는 이점 몇 가지를 없애 버린 악마의 발명품. | anger | 짜증 | |
 bierce | 『악마의 사전』 | NOISE, n. A stench in the ear. | 소음: 귀로 맡는 악취. | anger | 짜증 | |
-jerome | 『보트 위의 세 남자』 | I can't sit still and see another man slaving and working. I want to get up and superintend, and walk round with my hands in my pockets, and tell him what to do. | 나는 남이 뼈 빠지게 일하는 걸 가만히 앉아서 보고 있지 못한다. 일어나서 감독을 하고, 주머니에 손을 넣고 돌아다니며 이래라저래라 하고 싶어진다. | fun | 직장,귀찮음 | |
 grahame | 『버드나무에 부는 바람』 | The poetry of motion! The REAL way to travel! The ONLY way to travel! | 움직임의 시! 진짜 여행이란 이런 것! 여행이란 오직 이것뿐! | fun | 여행,즐거움 | 난생처음 자동차를 보고 넋이 나간 두꺼비 |
 grahame | 『버드나무에 부는 바람』 | O bliss! O poop-poop! O my! O my! | 아, 행복해! 아, 빵빵! 세상에! 세상에! | fun | 즐거움 | |
 bennett | 『하루 스물네 시간으로 사는 법』 | he persists in looking upon those hours from ten to six as "the day," to which the ten hours preceding them and the six hours following them are nothing but a prologue and epilogue | 그는 열 시부터 여섯 시까지의 시간만을 '하루'로 여기고, 그 앞의 열 시간과 그 뒤의 여섯 시간은 머리말과 맺음말일 뿐이라고 고집한다. | middle | 직장,시간,지침 | 출퇴근하는 사람이 저지르는 가장 큰 잘못이라며 |
 thoreau | 『월든』 | It is never too late to give up our prejudices. | 굳은 생각을 버리기에 너무 늦은 때란 없다. | middle | 성장,늙음 | |
-montgomery | 『빨강 머리 앤』 | It's all very well to read about sorrows and imagine yourself living through them heroically, but it's not so nice when you really come to have them, is it? | 책에서 슬픔을 읽고 내가 그걸 영웅처럼 견뎌 내는 모습을 상상하는 건 좋아요. 하지만 정말로 슬픈 일이 닥치면 그리 좋지가 않네요, 그렇죠? | sorrow | 슬픔,책 | |
 montgomery | 『빨강 머리 앤』 | Oh, it's delightful to have ambitions. I'm so glad I have such a lot. | 아, 이루고 싶은 게 있다는 건 정말 즐거워요. 그게 이렇게 많아서 참 기뻐요. | joy | 꿈,기쁨 | |
 chesterton | 『사소하지만 엄청난 것들』 | The way to love anything is to realise that it might be lost. | 무엇이든 사랑하는 방법은, 그것을 잃을 수도 있음을 깨닫는 것이다. | joy | 감사,상실 | |
-blake | 「흙덩이와 조약돌」 | Love seeketh not itself to please, / Nor for itself hath any care, / But for another gives its ease, / And builds a heaven in hell's despair. | 사랑은 자기를 기쁘게 하려 하지 않고, 자기를 돌보지도 않는다. 남을 위해 제 편안함을 내주고, 지옥의 절망 속에 천국을 짓는다. | love | 연애 | 소 발굽에 밟히는 작은 흙덩이가 부른 노래 |
 geliot | 『미들마치』 | the growing good of the world is partly dependent on unhistoric acts | 세상이 조금씩 나아지는 것은, 얼마쯤은 역사에 남지 않는 행동들 덕분이다. | middle | 책임,감사 | 드러나지 않는 삶을 성실히 살다 간 많은 사람들을 두고. 소설의 마지막 문장 |
 seneca | 『루킬리우스에게 보낸 편지』 1 | quem mihi dabis, qui aliquod pretium tempori ponat, qui diem aestimet | 시간에 값을 매기는 사람, 하루의 가치를 헤아리는 사람을 내게 한 명이라도 보여 주겠는가? | middle | 시간,후회 | |
 chenyuyi | 「임강선」 | 二十餘年如一夢 / 此身雖在堪驚 | 스무 해 남짓이 한바탕 꿈 같다. 이 몸이 아직 남아 있는 것이 놀라울 뿐. | middle | 회상,시간 | 젊은 날 벗들과 놀던 일을 밤에 누각에 올라 떠올리며 |

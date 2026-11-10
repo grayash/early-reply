@@ -62,7 +62,6 @@ wilde | 『진지함의 중요성』 | The truth is rarely pure and never simple
 grossmith | 『어느 보잘것없는 사람의 일기』 | I fail to see—because I do not happen to be a 'Somebody'—why my diary should not be interesting. | 내가 '대단한 누군가'가 아니라는 이유로 내 일기가 재미없어야 할 까닭을 나는 모르겠다. | joy | 뿌듯 | 평범한 회사 서기가 일기를 책으로 내며 |
 grossmith | 『어느 보잘것없는 사람의 일기』 | I left the room with silent dignity, but caught my foot in the mat. | 나는 말없이 위엄을 지키며 방을 나섰다. 그런데 발이 깔개에 걸렸다. | anger | 짜증,실패 | |
 grossmith | 『어느 보잘것없는 사람의 일기』 | What's the good of a home, if you are never in it? | 집에 있지도 않을 거라면 집이 무슨 소용인가? | daily | 집,여유 | |
-webster | 『키다리 아저씨』 | It isn't the big troubles in life that require character. Anybody can rise to a crisis and face a crushing tragedy with courage, but to meet the petty hazards of the day with a laugh—I really think that requires spirit. | 사람됨이 필요한 것은 인생의 큰 어려움이 아니에요. 큰 위기나 비극에는 누구나 용기를 낼 수 있어요. 하지만 그날그날의 자잘한 골칫거리를 웃으며 맞는 것, 그게 정말 기개가 필요한 일 같아요. | anger | 짜증,성장 | |
 webster | 『키다리 아저씨』 | Most people don't live; they just race. | 사람들 대부분은 사는 게 아니라, 그저 달리기 경주를 하고 있어요. | middle | 지침,여유 | 먼 목표만 보고 숨차게 달리느라 지나가는 고요한 풍경을 다 놓친다며 |
 webster | 『키다리 아저씨』 | I've discovered the true secret of happiness, Daddy, and that is to live in the now. | 아저씨, 행복의 진짜 비결을 찾았어요. 그건 바로 지금을 사는 거예요. | joy | 기쁨,시간 |  | g
 webster | 『키다리 아저씨』 | It isn't the great big pleasures that count the most; it's making a great deal out of the little ones | 가장 중요한 건 엄청나게 큰 즐거움이 아니에요. 작은 즐거움에서 많은 것을 만들어 내는 거예요. | joy | 기쁨,감사 | | g
@@ -86,12 +85,9 @@ burnett | 『소공녀』 | When people are insulting you, there is nothing so g
 adams | 『헨리 애덤스의 교육』 | A teacher affects eternity; he can never tell where his influence stops. | 가르치는 사람은 영원에 영향을 미친다. 자기 영향이 어디서 멈추는지 결코 알 수 없다. | work | 직장,공부 | |
 adams | 『헨리 애덤스의 교육』 | Chaos was the law of nature; Order was the dream of man. | 혼돈은 자연의 법칙이었고, 질서는 사람의 꿈이었다. | anxiety | 막막 | |
 twain | 『얼간이 윌슨』의 달력 | Few things are harder to put up with than the annoyance of a good example. | 훌륭한 본보기가 주는 짜증만큼 참기 어려운 것도 드물다. | anger | 짜증 |  | g
-twain | 『얼간이 윌슨』의 달력 | Nothing so needs reforming as other people's habits. | 남의 버릇만큼 고쳐야 할 것도 없다. | anger | 짜증,다툼 | |
 twain | 『얼간이 윌슨』의 달력 | When angry, count four; when very angry, swear. | 화가 나면 넷을 세어라. 몹시 화가 나면 욕을 해라. | anger | 분노 | | g
 twain | 『얼간이 윌슨』의 달력 | Courage is resistance to fear, mastery of fear—not absence of fear. | 용기란 두려움에 맞서는 것, 두려움을 다스리는 것이다. 두려움이 없는 것이 아니다. | anxiety | 두려움,도전 | | g
 twain | 『얼간이 윌슨』의 달력 | Habit is habit, and not to be flung out of the window by any man, but coaxed down-stairs a step at a time. | 버릇은 버릇이라, 누구도 창밖으로 내던질 수는 없다. 달래서 한 번에 한 계단씩 내려보내야 한다. | middle | 지침,성장 | |
-twain | 『얼간이 윌슨』의 달력 | October. This is one of the peculiarly dangerous months to speculate in stocks in. The others are July, January, September, April, November, May, March, June, December, August, and February. | 시월. 주식 투기를 하기에 유난히 위험한 달 가운데 하나다. 다른 위험한 달로는 칠월, 일월, 구월, 사월, 십일월, 오월, 삼월, 유월, 십이월, 팔월, 그리고 이월이 있다. | work | 돈,걱정 | |
-twain | 『얼간이 윌슨』의 달력 | The holy passion of Friendship is of so sweet and steady and loyal and enduring a nature that it will last through a whole lifetime, if not asked to lend money. | 우정이라는 거룩한 마음은 참으로 다정하고 한결같고 미덥고 오래가는 것이어서, 평생토록 이어진다. 돈을 꿔 달라고만 하지 않으면. | fun | 친구,돈 | |
 bierce | 『악마의 사전』 | BORE, n. A person who talks when you wish him to listen. | 따분한 사람: 내 말을 들어 주었으면 할 때 자기 말을 하는 사람. | anger | 짜증 | |
 bierce | 『악마의 사전』 | ALONE, adj. In bad company. | 혼자: 나쁜 일행과 함께 있음. | sorrow | 외로움 | |
 bierce | 『악마의 사전』 | PATIENCE, n. A minor form of despair, disguised as a virtue. | 참을성: 미덕으로 꾸민, 작은 절망. | sorrow | 지침,답답 | |

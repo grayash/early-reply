@@ -47,6 +47,7 @@ export function readQuotes(authors) {
       for (const fl of flags) {
         if (fl.startsWith('y=')) q.year = Number(fl.slice(2));
         if (fl.startsWith('w=')) q.when = fl.slice(2).replace(/_/g, ' ');
+        if (fl.startsWith('ws=')) q.ws = fl.slice(3).replace(/_/g, ' ');
       }
       quotes.push(q);
     });

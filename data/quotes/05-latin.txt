@@ -37,7 +37,6 @@ catullus | 시 46 | iam mens praetrepidans avet vagari | 벌써 마음은 들떠
 catullus | 시 31 | o quid solutis est beatius curis | 근심을 풀어 놓는 것보다 복된 일이 무엇이랴. | daily | 집,지침,잠 | 긴 타지 생활을 마치고 집에 돌아와. 이어서 '그리던 내 침대에 눕는다'고 썼다 | g
 martial | 『경구집』 1.32 | non amo te, Sabidi, nec possum dicere quare: hoc tantum possum dicere, non amo te | 사비디우스, 나는 네가 싫다. 왜인지는 말 못 하겠다. 말할 수 있는 건 이것뿐, 나는 네가 싫다. | anger | 짜증 | | g
 martial | 『경구집』 5.58 | cras te victurum, cras dicis, Postume, semper | 포스투무스, 너는 내일부터 제대로 살겠다고, 늘 내일이라고 말한다. | daily | 귀찮음,후회 | | g
-martial | 『경구집』 12.46 | difficilis facilis, iucundus acerbus es idem: nec tecum possum vivere nec sine te | 너는 까다롭다가도 수월하고, 유쾌하다가도 쓰디쓰다. 너와 함께도 못 살겠고, 너 없이도 못 살겠다. | love | 다툼,연애 | |
 martial | 『경구집』 1.38 | quem recitas meus est, o Fidentine, libellus: sed male cum recitas, incipit esse tuus | 피덴티누스, 네가 낭송하는 그 책은 내 것이다. 그런데 네가 형편없이 읽으니, 네 것이 되기 시작한다. | anger | 짜증,억울,직장 | 남의 시를 자기 것처럼 읽고 다니는 사람에게 |
 martial | 『경구집』 5.81 | semper pauper eris, si pauper es, Aemiliane: dantur opes nullis nunc nisi divitibus | 아이밀리아누스, 지금 가난하다면 너는 늘 가난할 것이다. 요즘 재물은 부자들에게만 주어지니까. | anger | 돈,억울 | |
 ovid | 『흑해에서 보낸 편지』 4.10 | gutta cavat lapidem, consumitur anulus usu | 물방울이 돌을 뚫고, 반지는 끼다 보면 닳는다. | work | 성취,지침 | |
