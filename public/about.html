@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>소개 · 먼저 온 답장</title>
+<meta name="description" content="오늘 쓴 한두 줄에, 오래전 누군가가 실제로 남긴 문장이 답글로 달립니다.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="먼저 온 답장">
+<meta property="og:title" content="소개 · 먼저 온 답장">
+<meta property="og:description" content="오늘 쓴 한두 줄에, 오래전 누군가가 실제로 남긴 문장이 답글로 달립니다.">
+<meta property="og:image" content="/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#f4efe6">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+<main class="wrap">
+  <h1>먼저 온 답장</h1>
+  <p class="lead">오늘 쓴 한두 줄에, 오래전 누군가가 실제로 남긴 문장 하나가 답글로 달려요. 그 사람은 당신보다 먼저 같은 마음을 지나갔어요.</p>
+
+  <h2 id="quotes">문장은 어디서 오나요</h2>
+  <div class="box">
+    <ul>
+      <li>글쓴이가 세상을 떠난 지 70년이 넘어 저작권이 끝난 글만 실어요.</li>
+      <li>한국어 번역은 기존 번역서를 쓰지 않고 원문에서 새로 옮겼어요. 번역이 어색하거나 틀린 곳이 있으면 아래로 알려 주세요.</li>
+      <li>답글마다 '원문 확인'을 누르면, 그 문장을 대조한 공개 원문 자료로 이어져요. 링크가 없는 문장은 아직 자료와 대조하지 못한 문장이에요.</li>
+      <li id="lib"></li>
+    </ul>
+  </div>
+
+  <h2>답글은 어떻게 고르나요</h2>
+  <div class="box">
+    <ul>
+      <li>글의 감정과 주제를 읽고, 가장 가까운 문장 하나를 골라요. 문장을 새로 지어내지 않아요.</li>
+      <li>답글 아래 'AI 연결' 표시가 붙은 한 줄은 AI가 쓴 설명이에요. 옛 사람의 말이 아니에요.</li>
+      <li>잘 맞지 않는 답글도 있어요. '어울려요'와 '글쎄요'를 눌러 주시면 고르는 방식을 고치는 데 써요.</li>
+    </ul>
+  </div>
+
+  <h2 id="data">글과 정보는 이렇게 다뤄요</h2>
+  <div class="box">
+    <ul>
+      <li>가입도 로그인도 없어요. 모든 글은 이름 없이 공개돼요.</li>
+      <li>서버에 저장하는 것: 쓴 글, 받은 답글, 쓴 시각, '어울려요' 수, 삭제 확인용 암호값.</li>
+      <li>이 기기에만 저장하는 것: 내 글 목록, 최근 받은 문장, 내가 누른 버튼. 브라우저 기록을 지우면 내 글 표시와 삭제 버튼도 사라져요.</li>
+      <li>도배를 막으려고 접속 주소(IP)를 알아볼 수 없는 값으로 바꿔 잠깐 세어요. 하루가 지나면 쓸 수 없는 값이 돼요.</li>
+      <li>욕설·비하, 연락처, 광고가 들어간 글은 올라가지 않아요. 세 명이 신고한 글은 가려져요.</li>
+      <li>AI 한 줄을 쓸 때 글 내용이 Cloudflare의 AI 기능으로 전달돼요.</li>
+    </ul>
+  </div>
+
+  <h2>마음이 많이 힘들 때</h2>
+  <div class="box">
+    <p>죽음을 생각하게 하는 글에는 옛 문장 대신 아래 번호를 안내해요.</p>
+    <a class="tel" href="tel:109"><span>자살예방 상담전화 · 24시간</span><b>109</b></a>
+    <a class="tel" href="tel:15770199"><span>정신건강 위기상담 · 24시간</span><b>1577-0199</b></a>
+    <a class="tel" href="tel:1388"><span>청소년 상담 · 24시간</span><b>1388</b></a>
+  </div>
+
+  <h2 id="feedback">의견 보내기</h2>
+  <p class="hint">틀린 번역, 어색한 답글, 바라는 점을 알려 주세요. 답장을 받으려면 연락처를 함께 적어 주세요.</p>
+  <textarea id="fb" maxlength="1000" placeholder="의견을 적어 주세요" style="min-height:110px"></textarea>
+  <p class="err" id="fbErr" role="alert"></p>
+  <div class="row"><button class="btn" id="fbSend">보내기</button></div>
+</main>
+<script type="module" src="/js/about.js"></script>
+</body>
+</html>

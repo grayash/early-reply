@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>먼저 온 답장 · 옛 사람이 먼저 써 둔 답글</title>
+<meta name="description" content="오늘 쓴 한두 줄에, 오래전 누군가가 실제로 남긴 문장이 답글로 달립니다.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="먼저 온 답장">
+<meta property="og:title" content="먼저 온 답장 · 옛 사람이 먼저 써 둔 답글">
+<meta property="og:description" content="오늘 쓴 한두 줄에, 오래전 누군가가 실제로 남긴 문장이 답글로 달립니다.">
+<meta property="og:image" content="/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#f4efe6">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+<main class="wrap">
+  <a class="compose" href="/write.html"><span>지금 무슨 생각을 하세요?</span><b>쓰러 가기</b></a>
+  <p class="notice">글은 이름 없이 모두에게 공개돼요. 저장되는 것은 쓴 글과 받은 답글뿐이에요. <a href="/about.html#data">처리 방식</a></p>
+  <div id="feed" aria-live="polite"></div>
+  <button class="btn line more" id="more" hidden>더 보기</button>
+</main>
+<script type="module" src="/js/feed.js"></script>
+</body>
+</html>

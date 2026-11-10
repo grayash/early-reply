@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>관리 · 먼저 온 답장</title>
+<meta name="description" content="관리자용">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="먼저 온 답장">
+<meta property="og:title" content="관리 · 먼저 온 답장">
+<meta property="og:description" content="관리자용">
+<meta property="og:image" content="/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#f4efe6">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+<main class="wrap">
+  <h1>의미 검색 준비</h1>
+  <p class="lead">문장이 바뀔 때마다 한 번 눌러 주세요. 문장들의 의미값을 계산해 저장해요. 1~2분 걸려요.</p>
+  <label for="key" class="hint">관리자 열쇠 (Cloudflare에 넣어 둔 ADMIN_KEY)</label>
+  <textarea id="key" style="min-height:56px" autocomplete="off"></textarea>
+  <div class="row"><button class="btn" id="go">계산 시작</button><button class="btn line" id="chk">상태 확인</button></div>
+  <p id="log" class="hint" aria-live="polite"></p>
+</main>
+<script type="module">
+import { api, $, chrome } from '/js/common.js';
+chrome('');
+const log = (s) => { $('#log').textContent = s; };
+$('#chk').onclick = async () => { const r = await api('admin/embed', { method: 'POST', body: { key: $('#key').value.trim(), check: true } }); log(r.error || (r.ready ? `준비 완료 · 문장 ${r.total}개` : `아직 준비되지 않았어요 · 문장 ${r.total}개`)); };
+$('#go').onclick = async () => {
+  let chunk = 0;
+  for (;;) {
+    const r = await api('admin/embed', { method: 'POST', body: { key: $('#key').value.trim(), chunk } });
+    if (r.error) return log('멈췄어요: ' + r.error);
+    log(`${r.saved ?? r.total} / ${r.total}`);
+    if (r.done) return log(`끝났어요 · 문장 ${r.total}개`);
+    chunk = r.next;
+  }
+};
+</script>
+</body>
+</html>

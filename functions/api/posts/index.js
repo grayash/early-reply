@@ -10,8 +10,19 @@ export async function onRequestGet({ request, env }) {
   const limit = Math.min(Number(u.searchParams.get('limit')) || 20, 30);
   const { results } = await env.DB.prepare(
     'SELECT * FROM posts WHERE hidden = 0 AND created_at < ? ORDER BY created_at DESC LIMIT ?').bind(before, limit).all();
-  return json({ posts: results.map(postView), more: results.length === limit });
+  const out = { posts: results.map(postView), more: results.length === limit };
+  // 글이 하나도 없을 때만: 화면이 어떻게 보이는지 알려 주는 예시(저장되지 않음, '예시' 표시)
+  if (!results.length && !u.searchParams.get('before')) {
+    let seed = 7; const rand = () => (seed = (seed * 9301 + 49297) % 233280) / 233280;
+    out.samples = [];
+    for (const [i, text] of SAMPLES.entries()) {
+      const r = await chooseReply(text, { quotes: DATA.quotes, authors: DATA.authors, rand, recentQuotes: new Set(out.samples.map((s) => s.quote.id)) });
+      out.samples.push({ id: `sample-${i}`, sample: true, text, at: 0, likes: 0, line: null, lineAi: false, quote: quoteView(r.quote.id) });
+    }
+  }
+  return json(out);
 }
+const SAMPLES = ['퇴근길에 비 온다. 우산은 회사에 있고', '오랜만에 친구랑 한잔했더니 살 것 같다', '벌써 11월이라니 올해 뭐 했지'];
 
 // 글 쓰기 → 옛 문장 하나가 답글로 달린다
 export async function onRequestPost({ request, env }) {

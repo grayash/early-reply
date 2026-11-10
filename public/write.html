@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>쓰기 · 먼저 온 답장</title>
+<meta name="description" content="오늘 쓴 한두 줄에, 오래전 누군가가 실제로 남긴 문장이 답글로 달립니다.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="먼저 온 답장">
+<meta property="og:title" content="쓰기 · 먼저 온 답장">
+<meta property="og:description" content="오늘 쓴 한두 줄에, 오래전 누군가가 실제로 남긴 문장이 답글로 달립니다.">
+<meta property="og:image" content="/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#f4efe6">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+<main class="wrap">
+  <div id="form">
+    <h1>옛 사람에게 말 걸기</h1>
+    <p class="lead">한두 줄이면 돼요. 오래전에 누군가 실제로 남긴 문장 하나가 답글로 도착해요.</p>
+    <label for="text" class="hint">오늘의 글</label>
+    <textarea id="text" maxlength="100" placeholder="지금 무슨 생각을 하세요?" autocomplete="off"></textarea>
+    <div class="count"><span id="cnt">0</span> / 100</div>
+    <p class="notice">쓴 글은 <strong>이름 없이 모두에게 공개</strong>돼요. 이름·연락처는 적지 마세요.</p>
+    <p class="err" id="err" role="alert"></p>
+    <div class="row"><button class="btn accent" id="send" disabled>보내기</button></div>
+    <p class="hint" style="margin-top:22px">이런 글도 괜찮아요</p>
+    <div class="chips" id="chips" aria-label="예시 글"></div>
+    <div class="box" id="data">
+      <b>올리기 전에</b>
+      <ul>
+        <li>쓴 글은 <strong>이름 없이 모두에게 공개</strong>돼요.</li>
+        <li>이름, 연락처, 주소처럼 누구인지 알 수 있는 내용은 적지 마세요.</li>
+        <li>저장되는 것은 쓴 글과 받은 답글이에요. 내 글 표시와 삭제는 이 기기에서만 할 수 있어요.</li>
+      </ul>
+    </div>
+  </div>
+  <div id="result" hidden></div>
+  <div id="crisis" hidden></div>
+</main>
+<div class="stage" id="stage" aria-live="polite">
+  <button class="skip" id="skip">건너뛰기</button>
+  <div><p class="mytext" id="stText"></p></div>
+  <div><p class="year" id="stYear"></p></div>
+  <div><div class="letter" id="stLetter"><p class="who" id="stWho"></p><p class="q" id="stQ"></p><p class="o" id="stO"></p><button class="btn next" id="stNext">답장 열기</button></div></div>
+</div>
+<script type="module" src="/js/write.js"></script>
+</body>
+</html>

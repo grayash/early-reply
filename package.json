@@ -11,6 +11,6 @@
   },
   "devDependencies": {
     "opencc-js": "^1.4.2",
-    "wrangler": "^4.0.0"
+    "wrangler": "^4.159.0"
   }
 }
