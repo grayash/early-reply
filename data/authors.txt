@@ -67,3 +67,15 @@ taoyuanming | 도연명 | 陶淵明 | zh | 405 | 5세기 | 동진 | 여든 날 �
 wangxizhi | 왕희지 | 王羲之 | zh | 353 | 353년 | 동진 | 봄날 물가의 모임에서 쓴 글과 글씨로 기억되는 사람 | zh:蒙学/guwenguanzhi.json
 zengguang | 『증광현문』의 옛말 | 增廣賢文 | zh | 1600 | 16세기 무렵 | 명나라 | 사람들 입에 오르내리던 속담과 격언을 모은 책. 엮은 이는 알려지지 않았다 | zh:蒙学/zengguangxianwen.json
 zhangchao | 장조 | 張潮 | zh | 1695 | 17세기 | 청나라 | 꽃과 달과 책과 벗에 관한 짧은 생각을 모아 적은 문인 | zh:幽梦影
+shakespeare | 윌리엄 셰익스피어 | William Shakespeare | en | 1609 | 1609년 | 잉글랜드 | 배우이자 극작가. 백쉰네 편의 소네트를 남겼다 | gut:Shakespeare-s-Sonnets_1041
+dickinson | 에밀리 디킨슨 | Emily Dickinson | en | 1865 | 19세기 | 미국 매사추세츠 | 거의 집 밖으로 나가지 않고 천팔백 편의 시를 써서 서랍에 넣어 두었다 | gut:Poems-by-Emily-Dickinson-Three-Series-Complete_12242
+whitman | 월트 휘트먼 | Walt Whitman | en | 1855 | 19세기 | 미국 뉴욕 | 인쇄공, 교사, 간호 봉사자였던 시인. 시집 한 권을 평생 고쳐 썼다 | gut:Leaves-of-Grass_1322
+keats | 존 키츠 | John Keats | en | 1818 | 1817~1819년 | 잉글랜드 | 스물다섯에 세상을 떠난 시인. 벗과 가족에게 많은 편지를 썼다 | gut:Letters-of-John-Keats-to-His-Family-and-Friends_35698
+pepys | 새뮤얼 피프스 | Samuel Pepys | en | 1665 | 1660년대 | 잉글랜드 런던 | 해군 관청의 관리. 구 년 동안 하루도 빠짐없이 암호로 일기를 썼다 | gut:The-Diary-of-Samuel-Pepys---Complete_4200
+wilde | 오스카 와일드 | Oscar Wilde | en | 1891 | 19세기 말 | 아일랜드·잉글랜드 | 재치 있는 말로 이름난 작가. 말년에 감옥에서 긴 편지를 썼다 | gut:The-Picture-of-Dorian-Gray_174;gut:De-Profundis_921
+alcott | 루이자 메이 올컷 | Louisa May Alcott | en | 1868 | 1868년 | 미국 | 가난한 집안의 생계를 글로 꾸린 작가. 자기 자매들 이야기를 소설로 썼다 | gut:Little-Women_514
+cbronte | 샬럿 브론테 | Charlotte Brontë | en | 1847 | 1847년 | 잉글랜드 | 가정교사로 일하다 남자 이름으로 소설을 낸 작가 | gut:Jane-Eyre_1260
+geliot | 조지 엘리엇 | George Eliot | en | 1871 | 1871년 | 잉글랜드 | 본명은 메리 앤 에번스. 시골 마을 사람들의 삶을 소설로 썼다 | gut:Middlemarch_145
+dickens | 찰스 디킨스 | Charles Dickens | en | 1850 | 1850년 | 잉글랜드 | 열두 살에 구두약 공장에서 일했던 소설가 | gut:David-Copperfield_766
+chesterton | G. K. 체스터턴 | G. K. Chesterton | en | 1909 | 1909년 | 잉글랜드 | 신문에 날마다 짧은 글을 쓴 작가 | gut:Tremendous-Trifles_8092
+lamb | 찰스 램 | Charles Lamb | en | 1823 | 1820년대 | 잉글랜드 런던 | 삼십삼 년 동안 회사 장부를 쓰며 틈틈이 수필을 쓴 사람 | gut:The-Works-of-Charles-and-Mary-Lamb---Volume-2--13-Elia-and-The-Last-Essays-of-Elia_10343
