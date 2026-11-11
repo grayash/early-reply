@@ -47,7 +47,7 @@ node scripts/old-font.mjs <NotoSerifKR-Regular.otf>   # 시조를 고친 뒤 옛
 4. Pages 설정의 Bindings에 D1(`DB`)과 Workers AI(`AI`)를 연결한다.
 5. 환경 변수(비밀 값)로 `ADMIN_KEY`, `SALT` 를 아무 긴 문자열로 넣는다.
 6. 배포 뒤 `/admin` 화면에서 `ADMIN_KEY` 를 넣고 '의미 검색 준비 → 계산 시작'을 끝까지 누른다(문장 100개씩 10번).
-7. Pages 프로젝트의 Metrics에서 Web Analytics를 켠다. 쿠키 없는 방문 통계이고, 소개 화면의 '처리 방식'에 이렇게 적어 두었다. 켜지 않으면 그 문장을 지운다.
+7. 방문 통계는 Firebase 프로젝트 early-reply의 구글 애널리틱스(측정 ID G-FV7PNLTV65)로 센다. 코드는 public/js/ga.js 한 곳이고 관리 화면은 제외했다. 쿠키가 쓰여서 소개 화면의 '처리 방식'에 적어 두었다. 통계는 Firebase 콘솔의 Analytics에서 본다.
    문장을 고쳐 다시 배포하면 이 단계를 다시 한다. 하지 않아도 낱말 방식으로 답글은 달린다.
 
 ## 관리 화면 (/admin)
