@@ -128,7 +128,8 @@ textarea:focus { outline: 2px solid var(--ink); outline-offset: 1px; }
 .sheet canvas { width: 46%; max-width: 220px; border-radius: 10px; border: 1px solid var(--line); display: block; margin: 0 auto 14px; }
 .sheet label { display: flex; gap: 8px; align-items: center; font-size: 14.5px; margin: 8px 0; }
 .empty { text-align: center; color: var(--muted); padding: 40px 0; }
-@media (prefers-reduced-motion: reduce) { .stage .mytext, .stage .year, .stage .letter { transition: none; } }
+/* 동작 줄이기: 위로 날아가기·흐려지기만 빼고, 서서히 나타나고 사라지는 효과는 그대로 */
+@media (prefers-reduced-motion: reduce) { .stage .mytext.go { transform: none; filter: none; } }
 /* 옛한글(시조 원문): 자모를 합쳐 그릴 수 있는 글꼴로 */
 .orig:lang(ko), .stage .o:lang(ko) { font-family: var(--old); letter-spacing: 0; }
 .foot { text-align: center; font-size: 14px; color: var(--muted); margin: 36px 0 8px; }

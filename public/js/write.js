@@ -9,7 +9,7 @@ ta.addEventListener('input', onInput);
 
 const stage = $('#stage'); const wait = (ms) => new Promise((r) => setTimeout(r, ms));
 let skipped = false;
-const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+// '동작 줄이기'를 켠 폰에서도 연출은 보여 준다(큰 움직임만 css에서 뺀다).
 $('#skip').onclick = () => { skipped = true; };
 const yearLabel = (y) => (y < 0 ? `기원전 ${num(-y)}` : `${y}`);
 
@@ -67,17 +67,17 @@ function showCrisis(c) {
 
 send.onclick = async () => {
   const text = ta.value.trim(); if (text.length < 2) return;
-  send.disabled = true; err.textContent = ''; skipped = reduce;
+  send.disabled = true; err.textContent = ''; skipped = false;
   const req = api('posts', { method: 'POST', body: { text, token: store.token(), recent: store.recent() } });
   // 연출 시작: 내 글이 위로 올라가며 사라진다
   for (const id of ['#stYear', '#stLetter', '#stNext']) $(id).classList.remove('on');
   const mt = $('#stText'); mt.classList.remove('go'); mt.textContent = text;
-  if (!reduce) { stage.classList.add('on'); await wait(500); mt.classList.add('go'); }
-  const [r] = await Promise.all([req, reduce ? 0 : wait(1100)]);
+  stage.classList.add('on'); await wait(500); mt.classList.add('go');
+  const [r] = await Promise.all([req, wait(1100)]);
   if (r.crisis) { stage.classList.remove('on'); return showCrisis(r.crisis); }
   if (r.error || !r.post) { stage.classList.remove('on'); err.textContent = r.error || '답장을 받지 못했어요. 다시 해 주세요.'; send.disabled = false; return; }
   store.addMine(r.post.id); store.addRecent(r.post.quote.id);
-  if (!reduce) await play(text, r.post);
+  await play(text, r.post);
   stage.classList.remove('on');
   showResult(r);
 };
