@@ -195,7 +195,8 @@ export function openShare(post) {
     sh.innerHTML = `<div class="in" role="dialog" aria-label="공유">
       <canvas></canvas>
       <label><input type="checkbox" id="shText" checked> 쓴 글도 카드에 함께 넣기</label>
-      <div class="row"><button class="btn" id="shImg">이미지로 공유</button><button class="btn line" id="shLink">링크 복사</button></div>
+      <div class="row"><button class="btn" id="shCopy">이미지 복사</button><button class="btn" id="shImg">이미지로 공유</button></div>
+      <div class="row"><button class="btn line" id="shSave">이미지 저장</button><button class="btn line" id="shLink">링크 복사</button></div>
       <div class="row" id="shSns"><a class="btn line" id="shTh" target="_blank" rel="noopener">Threads</a><a class="btn line" id="shX" target="_blank" rel="noopener">X</a></div>
       <button class="btn line more" id="shClose">닫기</button></div>`;
     document.body.append(sh);
@@ -204,20 +205,30 @@ export function openShare(post) {
   }
   const canvas = $('canvas', sh); const chk = $('#shText', sh);
   const url = `${location.origin}/post.html?id=${encodeURIComponent(post.id)}`;
-  const draw = () => drawCard(canvas, post, chk.checked);
+  let drawing = Promise.resolve();
+  const draw = () => (drawing = drawCard(canvas, post, chk.checked));
   // Threads·X: 글 주소와 한 줄 소개를 담아 각 서비스의 글쓰기 화면을 연다
   const msg = `${num(post.quote.ago)}년 전, ${josa(post.quote.author.name, '이/가')} 먼저 써 둔 답장`;
   $('#shSns', sh).hidden = !!post.sample;
   $('#shTh', sh).href = `https://www.threads.net/intent/post?text=${encodeURIComponent(msg + '\n' + url)}`;
   $('#shX', sh).href = `https://twitter.com/intent/tweet?text=${encodeURIComponent(msg)}&url=${encodeURIComponent(url)}`;
   chk.onchange = draw; draw();
+  // 누른 직후에 바로 쓰도록 캔버스를 PNG로 바꾸는 약속을 넘긴다 (사파리는 클릭 직후여야 복사된다)
+  const png = () => new Promise((res) => canvas.toBlob(res, 'image/png'));
+  const save = (blob) => { const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'reply.png'; a.click(); };
+  $('#shCopy', sh).onclick = async () => {
+    try {
+      if (!window.ClipboardItem || !navigator.clipboard?.write) throw new Error('no');
+      await navigator.clipboard.write([new ClipboardItem({ 'image/png': drawing.then(png) })]);
+      toast('이미지를 복사했어요. 붙여넣기 하면 돼요.');
+    } catch { toast('이 브라우저는 이미지 복사를 지원하지 않아요. 저장을 눌러 주세요.'); }
+  };
+  $('#shSave', sh).onclick = async () => { await drawing; save(await png()); toast('이미지를 저장했어요.'); };
   $('#shImg', sh).onclick = async () => {
-    await draw();
-    canvas.toBlob(async (blob) => {
-      const file = new File([blob], 'reply.png', { type: 'image/png' });
-      if (navigator.canShare?.({ files: [file] })) { try { await navigator.share({ files: [file], title: '먼저 온 답장' }); } catch { /* 취소 */ } }
-      else { const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'reply.png'; a.click(); toast('이미지를 저장했어요.'); }
-    }, 'image/png');
+    await drawing; const blob = await png();
+    const file = new File([blob], 'reply.png', { type: 'image/png' });
+    if (navigator.canShare?.({ files: [file] })) { try { await navigator.share({ files: [file], title: '먼저 온 답장' }); } catch { /* 취소 */ } }
+    else { save(blob); toast('이미지를 저장했어요.'); }
   };
   $('#shLink', sh).onclick = async () => {
     if (post.sample) return toast('예시 글은 링크가 없어요.');
