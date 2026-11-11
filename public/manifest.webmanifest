@@ -1,0 +1,16 @@
+{
+  "name": "먼저 온 답장",
+  "short_name": "먼저 온 답장",
+  "description": "오늘 쓴 한두 줄에, 오래전 누군가가 실제로 남긴 문장이 답글로 달립니다.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f4efe6",
+  "theme_color": "#f4efe6",
+  "lang": "ko",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

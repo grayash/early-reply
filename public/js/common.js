@@ -203,14 +203,20 @@ export function openShare(post) {
       <canvas></canvas>
       <label><input type="checkbox" id="shText" checked> 쓴 글도 카드에 함께 넣기</label>
       <div class="row"><button class="btn" id="shImg">이미지로 공유</button><button class="btn line" id="shLink">링크 복사</button></div>
+      <div class="row" id="shSns"><a class="btn line" id="shTh" target="_blank" rel="noopener">Threads</a><a class="btn line" id="shX" target="_blank" rel="noopener">X</a></div>
       <button class="btn line more" id="shClose">닫기</button></div>`;
     document.body.append(sh);
     sh.addEventListener('click', (e) => { if (e.target === sh) sh.classList.remove('on'); });
     $('#shClose', sh).onclick = () => sh.classList.remove('on');
   }
   const canvas = $('canvas', sh); const chk = $('#shText', sh);
-  const url = `${location.origin}/post.html?id=${encodeURIComponent(post.id)}`;
+  const url = `${location.origin}/post?id=${encodeURIComponent(post.id)}`;
   const draw = () => drawCard(canvas, post, chk.checked);
+  // Threads·X: 글 주소와 한 줄 소개를 담아 각 서비스의 글쓰기 화면을 연다
+  const msg = `${num(post.quote.ago)}년 전, ${josa(post.quote.author.name, '이/가')} 먼저 써 둔 답장`;
+  $('#shSns', sh).hidden = !!post.sample;
+  $('#shTh', sh).href = `https://www.threads.net/intent/post?text=${encodeURIComponent(msg + '\n' + url)}`;
+  $('#shX', sh).href = `https://twitter.com/intent/tweet?text=${encodeURIComponent(msg)}&url=${encodeURIComponent(url)}`;
   chk.onchange = draw; draw();
   $('#shImg', sh).onclick = async () => {
     await draw();

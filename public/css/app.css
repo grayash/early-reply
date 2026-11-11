@@ -133,3 +133,4 @@ textarea:focus { outline: 2px solid var(--ink); outline-offset: 1px; }
 .orig:lang(ko), .stage .o:lang(ko) { font-family: var(--old); letter-spacing: 0; }
 .foot { text-align: center; font-size: 14px; color: var(--muted); margin: 36px 0 8px; }
 .foot a { color: inherit; }
+.field { width: 100%; font: inherit; font-size: 16px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 12px; background: var(--card); color: var(--ink); }
