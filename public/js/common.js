@@ -155,32 +155,42 @@ export async function drawCard(canvas, post, withText) {
   try { await Promise.all([document.fonts.load(`56px ${serif}`, q.ko), document.fonts.load(`700 56px ${serif}`, '먼저 온 답장')]); } catch { /* 기본 글꼴로 */ }
   c.fillStyle = '#17130f'; c.fillRect(0, 0, W, H);
   c.fillStyle = '#efe7d8'; c.textBaseline = 'top';
-  const M = 110; let y = 150;
-  c.font = `700 44px ${serif}`; c.fillText('먼저 온 답장', M, y);
-  y = 330;
-  if (withText) {
-    c.font = `40px ${sans}`; c.globalAlpha = .6; c.fillText('오늘, 누군가 썼다', M, y); c.globalAlpha = 1; y += 80;
-    c.font = `50px ${sans}`;
-    for (const l of wrap(c, post.text, W - M * 2).slice(0, 5)) { c.fillText(l, M, y); y += 76; }
-    y += 70;
-  }
-  c.fillStyle = '#e0795f'; c.font = `600 42px ${sans}`;
-  c.fillText(`↳ ${num(q.ago)}년 전, 먼저 온 답장`, M, y); y += 100;
-  c.fillStyle = '#efe7d8';
-  let size = q.ko.length > 90 ? 50 : q.ko.length > 50 ? 58 : 66;
-  c.font = `${size}px ${serif}`;
-  for (const l of wrap(c, q.ko, W - M * 2)) { c.fillText(l, M, y); y += size * 1.65; }
-  y += 40;
+  const M = 110;
+  c.font = `700 44px ${serif}`; c.fillText('먼저 온 답장', M, 150);
   const oldf = "'Old Hangul', 'Noto Serif KR', 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', serif";
   if (q.lang === 'ko') { try { await document.fonts.load(`36px 'Old Hangul'`, q.orig); } catch { /* 기본 글꼴로 */ } }
-  c.globalAlpha = .55; c.font = `36px ${q.lang === 'ko' ? oldf : serif}`;
-  const orig = q.orig.split('/').map((s) => s.trim()).slice(0, 2).join(' / ');
-  for (const l of wrap(c, orig, W - M * 2).slice(0, 3)) { c.fillText(l, M, y); y += 56; }
-  c.globalAlpha = 1; y += 50;
-  c.font = `600 44px ${sans}`; c.fillText(q.author.name, M, y); y += 64;
-  c.globalAlpha = .65; c.font = `36px ${sans}`;
-  c.fillText([q.when, q.author.place].filter(Boolean).join(' · '), M, y);
-  for (const [i, l] of wrap(c, q.src, W - M * 2).slice(0, 2).entries()) c.fillText(l, M, y + 54 * (i + 1));
+  const body = (y0, dry) => {
+    const T = dry ? () => {} : (s, x, yy) => c.fillText(s, x, yy);
+    let y = y0;
+    if (withText) {
+      c.font = `40px ${sans}`; c.globalAlpha = .6; T('오늘, 누군가 썼다', M, y); c.globalAlpha = 1; y += 80;
+      c.font = `50px ${sans}`;
+      for (const l of wrap(c, post.text, W - M * 2).slice(0, 5)) { T(l, M, y); y += 76; }
+      y += 70;
+    }
+    c.fillStyle = '#e0795f'; c.font = `600 42px ${sans}`;
+    T(`↳ ${num(q.ago)}년 전, 먼저 온 답장`, M, y); y += 100;
+    c.fillStyle = '#efe7d8';
+    let size = q.ko.length > 90 ? 50 : q.ko.length > 50 ? 58 : 66;
+    c.font = `${size}px ${serif}`;
+    for (const l of wrap(c, q.ko, W - M * 2)) { T(l, M, y); y += size * 1.65; }
+    y += 40;
+    c.globalAlpha = .55; c.font = `36px ${q.lang === 'ko' ? oldf : serif}`;
+    const orig = q.orig.split('/').map((s) => s.trim()).slice(0, 2).join(' / ');
+    for (const l of wrap(c, orig, W - M * 2).slice(0, 3)) { T(l, M, y); y += 56; }
+    c.globalAlpha = 1; y += 50;
+    c.font = `600 44px ${sans}`; T(q.author.name, M, y); y += 64;
+    c.globalAlpha = .65; c.font = `36px ${sans}`;
+    T([q.when, q.author.place].filter(Boolean).join(' · '), M, y);
+    const srcL = wrap(c, q.src, W - M * 2).slice(0, 2);
+    srcL.forEach((l, i) => T(l, M, y + 54 * (i + 1)));
+    c.globalAlpha = 1;
+    return y + 54 * (srcL.length + 1) - y0;
+  };
+  // 위 제목(150~200)과 아래 주소(H-170) 사이 가운데
+  const h = body(0, true); const top = Math.max(300, Math.round((300 + (H - 260) - h) / 2));
+  body(top, false);
+  c.globalAlpha = .65;
   c.font = `34px ${sans}`; c.fillText(location.host, M, H - 170);
   c.globalAlpha = 1;
 }
