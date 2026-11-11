@@ -2,7 +2,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
-import { TAG_CAT, CATS } from '../functions/_lib/lexicon.js';
+import { TAG_CAT, CATS } from '../src/lib/lexicon.js';
 
 export const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const split = (line) => line.split('|').map((s) => s.trim());

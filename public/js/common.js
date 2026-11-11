@@ -1,4 +1,4 @@
-// 모든 화면이 함께 쓰는 코드: 기기 저장, 서버 호출, 글 카드 그리기, 공유 카드
+// 모든 화면이 함께 쓰는 코드: 기기 저장, 뒷단 호출, 글 카드 그리기, 공유 카드
 const LS = {
   get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
   set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch { /* 저장이 막힌 브라우저 */ } },
@@ -20,17 +20,10 @@ export const store = {
   addReported(id) { LS.set('or_reported', [id, ...store.reported()].slice(0, 300)); },
 };
 
-export async function api(path, opt = {}) {
-  const res = await fetch('/api/' + path, {
-    method: opt.method || 'GET',
-    headers: { ...(opt.body ? { 'content-type': 'application/json' } : {}), ...(opt.headers || {}) },
-    body: opt.body ? JSON.stringify(opt.body) : undefined,
-  });
-  let data = {};
-  try { data = await res.json(); } catch { /* 빈 응답 */ }
-  if (!res.ok && !data.error) data.error = '연결이 고르지 않아요. 잠시 뒤 다시 해 주세요.';
-  return data;
-}
+// 뒷단은 Firebase(Firestore)다. 같은 이름(posts, vote, report…)으로 부르면 backend.js 가 처리한다.
+import { api } from './backend.js';
+export { api };
+export { adminLogin, adminLogout, adminWho, adminIsAdmin } from './backend.js';
 
 export const $ = (s, el = document) => el.querySelector(s);
 export const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -210,7 +203,7 @@ export function openShare(post) {
     $('#shClose', sh).onclick = () => sh.classList.remove('on');
   }
   const canvas = $('canvas', sh); const chk = $('#shText', sh);
-  const url = `${location.origin}/post?id=${encodeURIComponent(post.id)}`;
+  const url = `${location.origin}/post.html?id=${encodeURIComponent(post.id)}`;
   const draw = () => drawCard(canvas, post, chk.checked);
   // Threads·X: 글 주소와 한 줄 소개를 담아 각 서비스의 글쓰기 화면을 연다
   const msg = `${num(post.quote.ago)}년 전, ${josa(post.quote.author.name, '이/가')} 먼저 써 둔 답장`;

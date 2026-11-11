@@ -1,0 +1,108 @@
+rules_version = '2';
+
+// 먼저 온 답장: 서버 없이 이 규칙이 접근을 지킨다.
+// - 글·공감·신고·의견은 익명 로그인한 기기만 쓸 수 있고, 형식과 길이와 속도를 규칙이 확인한다.
+// - 내 글 열쇠(posts/{id}/priv/o)는 본인과 관리자만 읽는다.
+// - 가려진 글과 받은 의견은 관리자(admins 문서가 있는 계정)만 본다.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() { return request.auth != null; }
+    function isAdmin() { return signedIn() && exists(/databases/$(database)/documents/admins/$(request.auth.uid)); }
+    function isStr(v, min, max) { return v is string && v.size() >= min && v.size() <= max; }
+    function postPath(pid) { return /databases/$(database)/documents/posts/$(pid); }
+
+    // 관리자 표시: 문서가 있는 계정이 관리자. 본인 문서만 읽을 수 있고, 쓰기는 콘솔에서만 한다.
+    match /admins/{uid} {
+      allow get: if signedIn() && request.auth.uid == uid;
+    }
+
+    // 쓰기 속도 제한: 글 20초, 의견 60초에 한 번. 글·의견 쓰기와 같은 묶음에 이 문서를 함께 써야 통과한다.
+    match /rate/{k} {
+      function spaced(sec) { return resource == null || request.time > resource.data.t + duration.value(sec, 's'); }
+      allow create, update: if signedIn()
+        && request.resource.data.keys().hasOnly(['t'])
+        && request.resource.data.t == request.time
+        && ((k == request.auth.uid + '_post' && spaced(20)) || (k == request.auth.uid + '_fb' && spaced(60)));
+    }
+
+    match /posts/{pid} {
+      function validPost() {
+        let d = request.resource.data;
+        let priv = /databases/$(database)/documents/posts/$(pid)/priv/o;
+        return d.keys().hasOnly(['text', 'at', 'day', 'quoteId', 'authorId', 'mood', 'how', 'likes', 'reports', 'hidden'])
+          && d.keys().hasAll(['text', 'at', 'day', 'quoteId', 'authorId', 'mood', 'how', 'likes', 'reports', 'hidden'])
+          && isStr(d.text, 2, 100) && d.at == request.time
+          && isStr(d.day, 10, 10) && isStr(d.quoteId, 3, 40) && isStr(d.authorId, 2, 40) && isStr(d.mood, 1, 20) && isStr(d.how, 1, 20)
+          && d.likes == 0 && d.reports == 0 && d.hidden == false
+          && existsAfter(priv) && getAfter(priv).data.uid == request.auth.uid
+          && getAfter(/databases/$(database)/documents/rate/$(request.auth.uid + '_post')).data.t == request.time;
+      }
+
+      // 공감: 내 공감 문서(votes)가 바뀐 만큼만 likes 가 바뀐다
+      function likeUpdate() {
+        let vd = /databases/$(database)/documents/votes/$(pid + '_' + request.auth.uid);
+        let before = (exists(vd) && get(vd).data.v == 1) ? 1 : 0;
+        let after = (existsAfter(vd) && getAfter(vd).data.v == 1) ? 1 : 0;
+        return request.resource.data.diff(resource.data).affectedKeys().hasOnly(['likes'])
+          && request.resource.data.likes == resource.data.likes + after - before;
+      }
+
+      // 신고: 처음 신고하는 사람이 1씩 올리고, 3이 되면 가려진다
+      function reportUpdate() {
+        let rd = /databases/$(database)/documents/reports/$(pid + '_' + request.auth.uid);
+        let n = request.resource.data;
+        return n.diff(resource.data).affectedKeys().hasOnly(['reports', 'hidden'])
+          && !exists(rd) && existsAfter(rd)
+          && n.reports == resource.data.reports + 1
+          && n.hidden == (resource.data.hidden || n.reports >= 3);
+      }
+
+      allow get, list: if isAdmin() || resource.data.hidden == false;
+      allow create: if signedIn() && validPost();
+      allow update: if isAdmin() || (signedIn() && (likeUpdate() || reportUpdate()));
+      allow delete: if isAdmin() || (signedIn() && get(/databases/$(database)/documents/posts/$(pid)/priv/o).data.uid == request.auth.uid);
+
+      match /priv/{d} {
+        allow get: if signedIn() && (resource.data.uid == request.auth.uid || isAdmin());
+        allow create: if signedIn() && d == 'o'
+          && request.resource.data.keys().hasOnly(['uid']) && request.resource.data.uid == request.auth.uid
+          && existsAfter(postPath(pid));
+        allow delete: if signedIn() && (resource.data.uid == request.auth.uid || isAdmin());
+      }
+    }
+
+    // 공감: 문서 이름은 '글id_기기id'. 만들고 바꾸고 지울 때마다 글의 likes 가 같은 만큼 바뀌어야 한다.
+    match /votes/{vid} {
+      function oldVote() { return (resource != null && resource.data.v == 1) ? 1 : 0; }
+      function newVote() { return request.resource.data.v == 1 ? 1 : 0; }
+      allow get: if signedIn() && vid.split('_')[1] == request.auth.uid;
+      allow list: if isAdmin();
+      allow create, update: if signedIn()
+        && request.resource.data.keys().hasOnly(['p', 'v']) && isStr(request.resource.data.p, 3, 20)
+        && request.resource.data.v in [1, -1]
+        && vid == request.resource.data.p + '_' + request.auth.uid
+        && getAfter(postPath(request.resource.data.p)).data.likes
+           == get(postPath(request.resource.data.p)).data.likes + newVote() - oldVote();
+      allow delete: if isAdmin() || (signedIn() && vid.split('_')[1] == request.auth.uid
+        && getAfter(postPath(resource.data.p)).data.likes == get(postPath(resource.data.p)).data.likes - oldVote());
+    }
+
+    // 신고: 한 기기당 글 하나에 한 번. 만들기만 되고 고치거나 지우는 건 관리자만.
+    match /reports/{rid} {
+      allow get: if signedIn() && rid.split('_')[1] == request.auth.uid;
+      allow list, delete: if isAdmin();
+      allow create: if signedIn() && request.resource.data.keys().hasOnly(['p']) && isStr(request.resource.data.p, 3, 20)
+        && rid == request.resource.data.p + '_' + request.auth.uid;
+    }
+
+    // 의견: 쓰기만 되고 읽기·지우기는 관리자만
+    match /feedback/{fid} {
+      allow create: if signedIn()
+        && request.resource.data.keys().hasOnly(['text', 'at'])
+        && isStr(request.resource.data.text, 2, 1000) && request.resource.data.at == request.time
+        && getAfter(/databases/$(database)/documents/rate/$(request.auth.uid + '_fb')).data.t == request.time;
+      allow read, delete: if isAdmin();
+    }
+  }
+}

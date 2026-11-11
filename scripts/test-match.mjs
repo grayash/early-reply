@@ -1,9 +1,9 @@
 // 답글 고르는 방식 시험: 일상 글 50개 + 모호한 글 + 걸러야 하는 글.
 // AI(의미 검색·한 줄) 없이, 꼬리표와 낱말만으로 고른 결과를 보여 준다. 사용: npm test [-- --short]
-import DATA from '../functions/_data/quotes.js';
-import { chooseReply } from '../functions/_lib/match.js';
-import { isCrisis, blocked } from '../functions/_lib/filter.js';
-import { CATS } from '../functions/_lib/lexicon.js';
+import DATA from '../src/data/quotes.js';
+import { chooseReply } from '../src/lib/match.js';
+import { isCrisis, blocked } from '../src/lib/filter.js';
+import { CATS } from '../src/lib/lexicon.js';
 
 const POSTS = [
   '출근길에 하늘이 보라색이었는데 다들 폰만 보더라. 나만 봤나', '오랜만에 친구들이랑 밥 먹고 옴. 별거 안 했는데 배터리 꽉 찬 느낌',

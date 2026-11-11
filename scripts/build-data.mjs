@@ -1,9 +1,9 @@
-// data/ 원고 → functions/_data/quotes.js (서버가 쓰는 파일)
+// data/ 원고 → src/data/quotes.js (서버가 쓰는 파일)
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { ROOT, readAuthors, readQuotes } from './lib.mjs';
-import { CATS } from '../functions/_lib/lexicon.js';
+import { CATS } from '../src/lib/lexicon.js';
 
 const { authors, errors: e1 } = readAuthors();
 const { quotes, errors: e2 } = readQuotes(authors);
@@ -30,8 +30,8 @@ const A = {};
 for (const [id, a] of Object.entries(authors)) if (used[id]) { const { corpus, ...rest } = a; A[id] = rest; }
 const ver = crypto.createHash('sha1').update(JSON.stringify(out.map((q) => [q.id, q.ko, q.tags, q.note]))).digest('hex').slice(0, 10);
 
-fs.mkdirSync(path.join(ROOT, 'functions/_data'), { recursive: true });
-fs.writeFileSync(path.join(ROOT, 'functions/_data/quotes.js'), `// 자동 생성 파일 (npm run build). 직접 고치지 말 것.\nexport default ${JSON.stringify({ ver, authors: A, quotes: out })};\n`);
+fs.mkdirSync(path.join(ROOT, 'src/data'), { recursive: true });
+fs.writeFileSync(path.join(ROOT, 'src/data/quotes.js'), `// 자동 생성 파일 (npm run build). 직접 고치지 말 것.\nexport default ${JSON.stringify({ ver, authors: A, quotes: out })};\n`);
 
 const byCat = {}; const gen = {};
 for (const q of out) { byCat[q.cat] = (byCat[q.cat] || 0) + 1; if (q.g) gen[q.cat] = (gen[q.cat] || 0) + 1; }
