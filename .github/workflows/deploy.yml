@@ -1,0 +1,33 @@
+name: 배포
+
+# main에 올라가면 자동 배포. Actions 탭에서 손으로 돌릴 수도 있다.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: 서비스 계정 키 쓰기
+        env:
+          SA: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: |
+          if [ -z "$SA" ]; then echo "::error::저장소 비밀값 FIREBASE_SERVICE_ACCOUNT 가 없습니다. README '자동 배포' 참고"; exit 1; fi
+          printf '%s' "$SA" > "$RUNNER_TEMP/sa.json"
+      - name: Firebase 배포 (호스팅 + 규칙 + 색인)
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/sa.json
+        run: npx --yes firebase-tools@14 deploy --project early-reply --non-interactive
