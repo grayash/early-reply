@@ -135,3 +135,7 @@ textarea:focus { outline: 2px solid var(--ink); outline-offset: 1px; }
 .foot { text-align: center; font-size: 14px; color: var(--muted); margin: 36px 0 8px; }
 .foot a { color: inherit; }
 .field { width: 100%; font: inherit; font-size: 16px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 12px; background: var(--card); color: var(--ink); }
+
+/* 첫 화면 소개 (검색엔진·미리보기가 읽는 글) */
+.intro { margin: 4px 0 14px; font-size: 16px; font-weight: 400; line-height: 1.6; word-break: keep-all; opacity: .75; }
+.intro span { display: block; }
