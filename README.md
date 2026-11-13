@@ -62,6 +62,17 @@ npx firebase-tools login
 npm run deploy        # 호스팅 + firestore.rules + firestore.indexes.json 을 한 번에 올린다
 ```
 
+### 자동 배포 (GitHub Actions)
+
+`main`에 올라가면 `.github/workflows/deploy.yml`이 build 후 `firebase deploy`를 돌린다. Actions 탭 → '배포' → Run workflow로 손으로 돌릴 수도 있다.
+처음 한 번만 키를 넣는다:
+
+1. Google Cloud 콘솔(프로젝트 early-reply) → IAM 및 관리자 → 서비스 계정 → 만들기.
+   역할: **Firebase 관리자**(Firebase Admin), **서비스 계정 사용자**, **API 키 뷰어**.
+2. 만든 계정 → 키 → 키 추가 → JSON. 받은 파일 내용을 통째로 복사한다.
+3. GitHub 저장소 → Settings → Secrets and variables → Actions → New repository secret.
+   이름 `FIREBASE_SERVICE_ACCOUNT`, 값에 JSON 내용을 붙여 넣는다.
+
 배포 뒤:
 
 5. 관리자 만들기: `https://early-reply.web.app/admin.html` 에서 구글로 로그인하면, 화면에 내 uid가 나온다.
